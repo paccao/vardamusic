@@ -8,6 +8,9 @@
   import allerthsBageriLogo from '$assets/allerths-bageri-logo.jpeg?enhanced'
   import saxophoneRetreat from '$assets/saxofonretreat.jpeg?enhanced'
   import crystalBowlsTuning from '$assets/crystalBowlsTuning.jpeg?enhanced'
+  import treeOfVarda from '$assets/tree-of-varda.jpeg?enhanced'
+  import treeOfVardaWithText from '$assets/tree-of-varda-with-text.jpeg?enhanced'
+  import magganPlayingSaxophone from '$assets/maggan-playing-the-saxophone.png?enhanced'
   import motherMarySong from '$assets/mother-mary.wav'
 
   const siteName = 'Varda Music'
@@ -22,8 +25,8 @@
       title: 'Retreats',
       id: 'event-saxophoneretreat',
     },
-    saxofonmeditation: {
-      title: 'Saxofonmeditation',
+    saxophonemeditations: {
+      title: 'Saxophonemeditations',
       id: 'event-saxophonemeditation',
     },
     soundSession: {
@@ -75,8 +78,18 @@
               feels quiet - honor that. Here and now everything is perfect.
             </p>
             <p class="my-8">With love, Maggan/Varda</p>
+            <enhanced:img
+              src={treeOfVarda}
+              alt="A picture of a tree that represents Varda"
+              class="mx-auto my-8 h-auto w-full max-w-[350px] object-cover"
+            />
+            <p>
+              Varda - she rescues the elves from danger to a safe place with
+              sacred soundhealing, retreats, meditations, crystal bowl- &
+              saxophone-music.
+            </p>
           </div>
-          <audio controls class="mx-auto mb-8">
+          <audio controls class="mx-auto my-8">
             <source src={motherMarySong} type="audio/wav" />
             Your browser does not support the audio element.
           </audio>
@@ -108,9 +121,9 @@
               >{events['saxofonretreat'].title}</a
             >
             <a
-              href="#{events['saxofonmeditation'].id}"
+              href="#{events['saxophonemeditations'].id}"
               class="px-6 py-2 text-center text-xl text-green-500 underline underline-offset-2 hover:underline focus:text-green-500 focus:underline"
-              >{events['saxofonmeditation'].title}</a
+              >{events['saxophonemeditations'].title}</a
             >
             <a
               href="#{events['soundSession'].id}"
@@ -324,19 +337,20 @@
                   <div class="mx-auto mb-2 max-w-screen-sm">
                     <p class="my-2">
                       With help from sound, our own voice and in combination
-                      with my voice you can start to regulate your nerver system
-                      to calm and peace. And through tuning we feel more in
-                      balance and start to heal things in our body. We can once
-                      again feel that inner stillness. I also use my crystal
-                      bowls when we meet.
+                      with my voice you can start to regulate your nervous
+                      system into calm and peace. And through tuning we feel
+                      more in balance and start to heal things in our body. We
+                      can once again feel that inner stillness. I will also use
+                      my crystal bowls when we meet.
                     </p>
                   </div>
 
                   <p class="text-center">
-                    I now invite you to try this for yourself and book a 1 on 1
+                    I invite you to try this for yourself and book a 1 on 1
                     session with me. I would love to hear from you. Send me an
-                    email and I give you some suggestions when we can meet, in
-                    person or online.
+                    email and I will give you some suggestions when we can meet,
+                    in person or online. This can also be done in smaller
+                    groups.
                   </p>
                   <div class="flex justify-center text-center">
                     <EncryptedEmail />
@@ -349,27 +363,30 @@
               <section>
                 <h2
                   class="mb-4 text-center font-display text-4xl font-bold"
-                  id={events.saxofonmeditation.id}
+                  id={events.saxophonemeditations.id}
                 >
-                  {events.saxofonmeditation.title}
+                  {events.saxophonemeditations.title}
                 </h2>
                 <div class="mx-auto mb-2 max-w-screen-sm">
                   <p class="my-2">
-                    Nästa saxofonmeditation blir den 1/3 kl 16.
+                    The next saxophone meditation will be on the 1st of March
+                    16:00 Central European Time.
                   </p>
 
                   <p class="my-2">
-                    Vintertid är vi i Equmeniakyrkan i Hökerum. När våren kommer
-                    flyttar meditationen ut i skogen igen.
+                    During the winter we will gather at Equmeniakyrkan in
+                    Hökerum. When the spring comes we move the meditations out
+                    in the woods again.
                   </p>
 
                   <p class="my-2">
-                    Efteråt fikar vi tillsammans, surdegsmacka från <a
+                    Afterwards we will enjoy a fika together with sourdough
+                    bread from <a
                       href={instagramProfileLink}
                       target="_blank"
                       class="text-green-500 underline-offset-2 hover:text-green-500 hover:underline focus:underline"
                       >@allerthsbageri</a
-                    > och örtte.
+                    > and herb tea.
                   </p>
                 </div>
 
@@ -377,22 +394,21 @@
 
                 <div class="mx-auto max-w-screen-sm">
                   <p class="my-2">
-                    <span class="font-bold">När:</span>
-                    Kommande meditiationer: 21/9, 19/10, 2/11, 16/11, 7/12, 4/1, 1/2,
-                    1/3, 29/3
+                    <span class="font-bold">When:</span>
+                    Upcoming meditations: 4/1, 1/2, 1/3, 29/3, 26/4, 31/5, 14/6
                   </p>
                   <p class="my-2">
-                    <span class="font-bold">Kostnad:</span>
-                    220 kr
+                    <span class="font-bold">Price:</span>
+                    220 SEK
                   </p>
                   <p class="my-2">
-                    <span class="font-bold">Var: </span>
-                    Grovare Spången 101, utanför Hökerum.
-                    <span class="font-bold">Vintertid:</span> Equmeniakyrkan, Hökerum.
+                    <span class="font-bold">Where: </span>
+                    Grovare Spången 101, outside of Hökerum.
+                    <span class="font-bold">Wintertime:</span> Equmeniakyrkan, Hökerum.
                   </p>
 
                   <p class="text-center font-bold">
-                    ✨ Välkommen med din anmälan till:
+                    ✨ You are welcome to register by sending me an email:
                   </p>
                   <div class="flex justify-center text-center">
                     <EncryptedEmail />
@@ -407,19 +423,20 @@
                   class="mb-4 text-center font-display text-4xl font-bold"
                   id={events.saxofonretreat.id}
                 >
-                  Är du redo för positiv förändring?
+                  Are you ready for a positive change?
                 </h2>
                 <div class="flex justify-center">
                   <p class="my-2 max-w-screen-sm text-2xl">
-                    SAXOFONRETREAT 14/3 kl 9.30 - ca 17.00
+                    SAXOPHONE RETREAT 14th of March 09:30 - 17.00 Central
+                    European Time
                   </p>
                 </div>
 
                 <div class="flex justify-center">
                   <p class="my-2 max-w-screen-sm">
-                    Välkommen till en kravlös och magisk dag där du får chans
-                    att släppa vardagens stress och måsten och istället påbörja
-                    din inre resa mot ett sannare jag.
+                    Welcome to an undemanding and magical day where you get the
+                    chance to release stress and begin a journey towards your
+                    inner true self.
                   </p>
                 </div>
 
@@ -482,8 +499,8 @@
                     > står för surdegsbröd till lunchen & även något gott till eftermiddagsfikat.
                   </p>
                   <p>
-                    Investeringen i dig själv kostar 1990 kr, anmälan senast den
-                    11/3 kl 18.00.
+                    Investeringen i dig själv kostar 1990 SEK, anmälan senast
+                    den 11/3 kl 18.00.
                   </p>
                   <p>
                     Det finns möjlighet till rabatt vid tidig bokning, senast
@@ -521,11 +538,24 @@
 
             <Divider />
 
+            <enhanced:img
+              class="mx-auto my-8 h-auto w-full max-w-[250px] object-cover"
+              src={magganPlayingSaxophone}
+              alt="Maggan playing the saxophone"
+            />
+
             <p class="text-center font-bold">
               If you live in Sweden I also offer lessions in how to play
               saxophone. 🎷🎶
             </p>
 
+            <!-- TODO: Add varda-tree image with text on it -->
+
+            <enhanced:img
+              class="mx-auto my-8 h-auto w-full max-w-[400px] object-cover"
+              src={treeOfVardaWithText}
+              alt="A picture of a tree that represents Varda, inviting you to send an email"
+            />
             <Divider />
           </section>
         </div>
