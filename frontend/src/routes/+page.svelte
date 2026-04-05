@@ -12,6 +12,7 @@
   import treeOfVardaWithText from '$assets/tree-of-varda-with-text.jpeg?enhanced'
   import magganPlayingSaxophone from '$assets/maggan-playing-the-saxophone.png?enhanced'
   import motherMarySong from '$assets/mother-mary.wav'
+  import trolleboSaxophoneMeditations from '$assets/trollebo-saxophone-meditations.jpeg?enhanced'
 
   const siteName = 'Sacred Varda Music'
 
@@ -30,7 +31,7 @@
       id: 'event-saxophonemeditation',
     },
     soundSession: {
-      title: 'Sacred sound 1 on 1',
+      title: 'Sacred sound session',
       id: 'event-sound-session',
     },
   }
@@ -136,9 +137,9 @@
               Site navigation
             </h2>
             <a
-              href="#{events['saxofonretreat'].id}"
+              href="#{events['soundSession'].id}"
               class="px-6 py-2 text-center text-xl text-green-500 underline underline-offset-2 hover:underline focus:text-green-500 focus:underline"
-              >{events['saxofonretreat'].title}</a
+              >{events['soundSession'].title}</a
             >
             <a
               href="#{events['saxophonemeditations'].id}"
@@ -146,9 +147,9 @@
               >{events['saxophonemeditations'].title}</a
             >
             <a
-              href="#{events['soundSession'].id}"
+              href="#{events['saxofonretreat'].id}"
               class="px-6 py-2 text-center text-xl text-green-500 underline underline-offset-2 hover:underline focus:text-green-500 focus:underline"
-              >{events['soundSession'].title}</a
+              >{events['saxofonretreat'].title}</a
             >
             <p class="py-4 text-center text-2xl text-gray-200">♫</p>
             <EncryptedEmail />
@@ -192,24 +193,25 @@
                 Archangels, Mother Mary, Jesus and Mary Magdalene.
               </p>
             </div>
+
+            <enhanced:img
+              class="mx-auto h-auto w-full max-w-[350px] object-cover"
+              src={crystalBowlsTuning}
+              alt="Bild på Maggan som spelar på kristallskålar"
+            />
           </article>
 
           <Divider />
 
-          <article class="my-8 w-full px-4 pt-4">
+          <article class="my-8 w-full px-4">
             <!-- <h4 class="mb-4 text-center font-display text-2xl">
                 Kommande event:
               </h4> -->
 
             <section id={events.soundSession.id}>
               <div class="mx-auto max-w-screen-sm">
-                <enhanced:img
-                  class="mx-auto h-auto w-full max-w-[350px] object-cover"
-                  src={crystalBowlsTuning}
-                  alt="Bild på Maggan som spelar på kristallskålar"
-                />
                 <h2
-                  class="mb-4 pt-8 text-center font-display text-4xl font-bold"
+                  class="mb-4 text-center font-display text-4xl font-bold"
                   id={events.soundSession.id}
                 >
                   {events.soundSession.title}
@@ -241,32 +243,36 @@
             <Divider />
 
             <section>
-              <h2
-                class="mb-4 text-center font-display text-4xl font-bold"
+              <enhanced:img
+                class="mx-auto h-auto w-full max-w-[350px] object-cover py-2"
+                src={trolleboSaxophoneMeditations}
+                alt="Saxophone meditations in the forest, a picture of a mystical creature in Rångedala"
                 id={events.saxophonemeditations.id}
-              >
+              />
+              <h2 class="my-4 text-center font-display text-4xl font-bold">
                 {events.saxophonemeditations.title}
               </h2>
               <div class="mx-auto mb-2 max-w-screen-sm">
                 <p class="my-2">
-                  The next saxophone meditation will be on the 1st of March
-                  16:00 Central European Time.
+                  The next saxophone meditation will be on the 26th of April
+                  16:00 swedish time.
                 </p>
 
                 <p class="my-2">
-                  During the winter we will gather at Equmeniakyrkan in Hökerum.
-                  When the spring comes we move the meditations out in the woods
-                  again.
+                  And now it's time to once again have these meditations in the
+                  wood. We'll meet at the parking lot at hembygdsgården in
+                  Algutstorp. 516 93 Rångedala.
                 </p>
 
                 <p class="my-2">
-                  Afterwards we will enjoy a fika together with sourdough bread
-                  from <a
-                    href={instagramProfileLink}
-                    target="_blank"
-                    class="text-green-500 underline-offset-2 hover:text-green-500 hover:underline focus:underline"
-                    >@allerthsbageri</a
-                  > and herb tea.
+                  Together we will take a 5 minute walk to a clearing in the
+                  forest to have these calming saxophone meditations.
+                </p>
+
+                <p class="my-2">
+                  My bakery provides a sourdough sandwich and herb tea to "the
+                  swedish fika" after the meditation. Therefore registration to
+                  the event is required.
                 </p>
               </div>
 
@@ -275,24 +281,49 @@
               <div class="mx-auto max-w-screen-sm">
                 <p class="my-2">
                   <span class="font-bold">When:</span>
-                  Upcoming meditations: 4/1, 1/2, 1/3, 29/3, 26/4, 31/5, 14/6
+                  Upcoming meditations: 26/4, 31/5, 14/6, 2/8, 23/8, 13/9, 4/10
                 </p>
                 <p class="my-2">
                   <span class="font-bold">Price:</span>
                   220 SEK
                 </p>
                 <p class="my-2">
-                  <span class="font-bold">Where: </span>
-                  Grovare Spången 101, outside of Hökerum.
-                  <span class="font-bold">Wintertime:</span> Equmeniakyrkan, Hökerum.
+                  <span class="font-bold">Where: </span> Location may vary each
+                  meditation. Be sure to check my Instagram
+                  <a
+                    href={instagramProfileLink}
+                    target="_blank"
+                    class="text-green-500 underline-offset-2 hover:text-green-500 hover:underline focus:underline"
+                  >
+                    @vardamusic44
+                  </a>
+                  for the latest information.
+                </p>
+                <p class="my-2">
+                  <span class="font-bold">Summertime: </span>
+                  Hembygdsgården in Algutstorp. 516 93 Rångedala or at Spången 101,
+                  523 99 Hökerum
+                </p>
+                <p class="my-2">
+                  <span class="font-bold">Wintertime: </span> Equmeniakyrkan, Hökerum.
+                  Vallvägen 2, 523 74 Hökerum.
                 </p>
 
-                <p class="text-center font-bold">
+                <p class="py-2 text-center font-bold">
                   ✨ You are welcome to register by sending me an email:
                 </p>
                 <div class="flex justify-center text-center">
                   <EncryptedEmail />
                 </div>
+
+                <p class="py-2 text-center">
+                  You can find updates to the event at my instagram: <a
+                    href={instagramProfileLink}
+                    target="_blank"
+                    class="text-green-500 underline-offset-2 hover:text-green-500 hover:underline focus:underline"
+                    >@vardamusic44</a
+                  >
+                </p>
               </div>
             </section>
 
