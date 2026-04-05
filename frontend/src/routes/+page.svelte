@@ -101,7 +101,7 @@
               have felt the call and right now you don't know what you shall do
               with it. <a
                 href="#read-more"
-                class=" text-green-500 underline underline-offset-2 hover:underline focus:text-green-500 focus:underline"
+                class=" text-[#004b47] underline underline-offset-2 hover:underline focus:text-[#004b47] focus:underline"
                 >Read more here</a
               >
             </p>
@@ -118,17 +118,17 @@
             </h2>
             <a
               href="#{events['soundSession'].id}"
-              class="px-6 py-2 text-center text-xl text-green-500 underline underline-offset-2 hover:underline focus:text-green-500 focus:underline"
+              class="px-6 py-2 text-center text-xl text-[#004b47] underline underline-offset-2 hover:underline focus:text-[#004b47] focus:underline"
               >{events['soundSession'].title}</a
             >
             <a
               href="#{events['saxophonemeditations'].id}"
-              class="px-6 py-2 text-center text-xl text-green-500 underline underline-offset-2 hover:underline focus:text-green-500 focus:underline"
+              class="px-6 py-2 text-center text-xl text-[#004b47] underline underline-offset-2 hover:underline focus:text-[#004b47] focus:underline"
               >{events['saxophonemeditations'].title}</a
             >
             <a
               href="#{events['saxofonretreat'].id}"
-              class="px-6 py-2 text-center text-xl text-green-500 underline underline-offset-2 hover:underline focus:text-green-500 focus:underline"
+              class="px-6 py-2 text-center text-xl text-[#004b47] underline underline-offset-2 hover:underline focus:text-[#004b47] focus:underline"
               >{events['saxofonretreat'].title}</a
             >
             <p class="py-4 text-center text-2xl text-gray-200">♫</p>
@@ -142,7 +142,7 @@
                 />
                 <a
                   href={instagramProfileLink}
-                  class="inline-block font-medium underline-offset-2 hover:text-green-500 hover:underline focus:text-green-500 focus:underline"
+                  class="inline-block font-medium text-[#004b47] underline-offset-2 hover:text-[#004b47] hover:underline focus:text-[#004b47] focus:underline"
                 >
                   @vardamusic44
                 </a>
@@ -269,7 +269,7 @@
                   <a
                     href={instagramProfileLink}
                     target="_blank"
-                    class="text-green-500 underline-offset-2 hover:text-green-500 hover:underline focus:underline"
+                    class="text-[#004b47] underline-offset-2 hover:text-[#004b47] hover:underline focus:underline"
                   >
                     @vardamusic44
                   </a>
@@ -296,7 +296,7 @@
                   You can find updates to the event at my instagram: <a
                     href={instagramProfileLink}
                     target="_blank"
-                    class="text-green-500 underline-offset-2 hover:text-green-500 hover:underline focus:underline"
+                    class="text-[#004b47] underline-offset-2 hover:text-[#004b47] hover:underline focus:underline"
                     >@vardamusic44</a
                   >
                 </p>

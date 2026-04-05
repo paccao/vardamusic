@@ -11,28 +11,28 @@
         <li>
           <a
             href="/#"
-            class="text-green-500 underline-offset-2 hover:underline focus:underline"
+            class="text-[#004b47] underline-offset-2 hover:underline focus:underline"
             >Upp till toppen</a
           >
         </li>
         <li>
           <a
             href="/#historia"
-            class="text-green-500 underline-offset-2 hover:underline focus:underline"
+            class="text-[#004b47] underline-offset-2 hover:underline focus:underline"
             >Historia</a
           >
         </li>
         <li>
           <a
             href="/#event"
-            class="text-green-500 underline-offset-2 hover:underline focus:underline"
+            class="text-[#004b47] underline-offset-2 hover:underline focus:underline"
             >Kommande event</a
           >
         </li>
         <li>
           <a
             href="/#news"
-            class="text-green-500 underline-offset-2 hover:underline focus:underline"
+            class="text-[#004b47] underline-offset-2 hover:underline focus:underline"
             >Nyheter</a
           >
         </li>
@@ -49,7 +49,7 @@
           />
           <a
             href="https://www.instagram.com/vardamusic44/"
-            class="inline-block font-medium text-green-500 underline-offset-2 hover:underline focus:underline"
+            class="inline-block font-medium text-[#004b47] underline-offset-2 hover:underline focus:underline"
           >
             @vardamusic44
           </a>
