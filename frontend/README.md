@@ -1,4 +1,4 @@
-# Varda Music
+# Sacred Varda Music
 
 A website made with Astro and Tailwind CSS.
 

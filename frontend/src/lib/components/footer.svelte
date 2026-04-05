@@ -64,7 +64,7 @@
   <div class="mx-auto mt-8 max-w-5xl pt-4 text-center">
     <p>
       © <span id="year">{new Date().getFullYear().toString()}</span>
-      Varda Music
+      Sacred Varda Music
     </p>
   </div>
 </footer>

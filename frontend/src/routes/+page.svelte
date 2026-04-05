@@ -13,7 +13,7 @@
   import magganPlayingSaxophone from '$assets/maggan-playing-the-saxophone.png?enhanced'
   import motherMarySong from '$assets/mother-mary.wav'
 
-  const siteName = 'Varda Music'
+  const siteName = 'Sacred Varda Music'
 
   // const bakingCourseDate = new Date('2026-03-21').toLocaleString('sv-SE', {
   //   dateStyle: 'full',
@@ -39,7 +39,6 @@
 <Layout class="max-w-3xl xs:px-4" footer>
   <header class="py-8 text-center">
     <div>
-      <span class="text-sm font-light tracking-widest">Välkommen till</span>
       <div class="flex items-center justify-center gap-4">
         <!-- <enhanced:img
           src={allerthsBageriLogo}

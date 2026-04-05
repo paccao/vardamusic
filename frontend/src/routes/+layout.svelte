@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-  <title>Varda Music</title>
+  <title>Sacred Varda Music</title>
 </svelte:head>
 
 {@render children?.()}

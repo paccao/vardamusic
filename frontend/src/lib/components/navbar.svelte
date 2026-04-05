@@ -15,7 +15,7 @@
       fetchpriority="high"
     />
     <h1 class="pt-2 font-display text-3xl font-bold xs:text-4xl">
-      Varda Music
+      Sacred Varda Music
     </h1>
   </a>
 </nav>

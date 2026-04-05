@@ -91,7 +91,7 @@
                 alt="logotyp"
                 class="mr-2 inline-block size-5 rounded-full object-cover shadow-md"
               />
-              <span class="text-base font-semibold">Varda Music</span>
+              <span class="text-base font-semibold">Sacred Varda Music</span>
             </a>
           {/snippet}
         </Sidebar.MenuButton>
