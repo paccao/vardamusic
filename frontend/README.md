@@ -1,8 +1,8 @@
 # Sacred Varda Music
 
-A website made with Astro and Tailwind CSS.
+A website made with Svelte and Tailwind CSS.
 
-![Allerths herb bakery](src/assets/box-med-bakat.jpg)
+![Sacred Varda Music](src/assets/box-med-bakat.jpg)
 
 ## Development
 

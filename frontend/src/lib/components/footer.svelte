@@ -48,10 +48,10 @@
             class="mr-2 inline-block h-8 w-8 rounded-full object-cover shadow-md"
           />
           <a
-            href="https://www.instagram.com/allerthsbageri/"
+            href="https://www.instagram.com/vardamusic44/"
             class="inline-block font-medium text-green-500 underline-offset-2 hover:underline focus:underline"
           >
-            @allerthsbageri
+            @vardamusic44
           </a>
         </li>
       </ul>

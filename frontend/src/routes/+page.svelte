@@ -59,7 +59,7 @@
             <h2 class="font-display text-3xl font-bold">Beloved, welcome!</h2>
             <p class="pt-4">
               This is a sacred website and it is activated and loaded with pure
-              Christ conciousness, ancient wisdom, unconditional love. It´s a
+              Christ conciousness, ancient wisdom, unconditional love. It's a
               sanctuary for those that are here to remember.
             </p>
             <p class="pt-4">
@@ -98,7 +98,7 @@
             </p>
             <p class="py-2">
               If you can feel a YES in your body then this is your home. You
-              have felt the call and right now you don´t know what you shall do
+              have felt the call and right now you don't know what you shall do
               with it. <a
                 href="#read-more"
                 class=" text-green-500 underline underline-offset-2 hover:underline focus:text-green-500 focus:underline"
@@ -168,8 +168,8 @@
                 So now I also work with healing sounds in different wonderful
                 ways. I am so happy and honored that I get to help others to
                 release that which no longer serves them and instead feel more
-                anchored and at ease so they can find the true path they´ve
-                always longed for, but didn´t know how to find. I work with The
+                anchored and at ease so they can find the true path they've
+                always longed for, but didn't know how to find. I work with The
                 Archangels, Mother Mary, Jesus and Mary Magdalene.
               </p>
             </div>
@@ -334,7 +334,7 @@
 
               <div class="flex justify-center">
                 <p class="my-2 max-w-screen-sm">
-                  In this oneday retreat you´ll get new insights, you will meet
+                  In this oneday retreat you'll get new insights, you will meet
                   other likeminded och if you want , new doors will opens for
                   you and you will grow and feel more aligned.
                 </p>
@@ -422,7 +422,7 @@
           <article class="my-4 w-full px-4 pt-4" id="read-more">
             <h4>Beloved,</h4>
             <p class="pt-2">
-              You´re so welcome to my sanctuary. It´s a home for you and all
+              You're so welcome to my sanctuary. It's a home for you and all
               angelic beings. It is a sacred space for those ready to step into
               their own initiation, to move beyond limitations, to connect more
               deeply with their soul wisdom and to start embody their unique
