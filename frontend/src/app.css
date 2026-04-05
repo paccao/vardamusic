@@ -146,7 +146,7 @@
   }
 
   body {
-    @apply bg-background bg-[url($assets/sky-background.jpeg)] bg-cover font-serif text-foreground backdrop-blur-xl backdrop-contrast-110;
+    @apply bg-background bg-[url($assets/sky-background.jpeg)] bg-cover font-serif text-foreground backdrop-blur-xl backdrop-brightness-105;
   }
 
   button:not(:disabled),
