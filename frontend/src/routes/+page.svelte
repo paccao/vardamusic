@@ -41,13 +41,6 @@
   <header class="py-8 text-center">
     <div>
       <div class="flex items-center justify-center gap-4">
-        <!-- <enhanced:img
-          src={allerthsBageriLogo}
-          alt="Profilbild för Allerths Bageri"
-          class="aspect-square size-20 rounded-full object-cover shadow-md"
-          loading="eager"
-          fetchpriority="high"
-        /> -->
         <h1
           class="inline-flex pt-2 font-display text-4xl font-bold sm:text-6xl"
         >
@@ -56,14 +49,6 @@
       </div>
     </div>
   </header>
-
-  <!-- <enhanced:img
-    class="max-h-[400px] w-full object-cover shadow-md xs:rounded-md"
-    src={breadMarketPlace}
-    alt="Surdegsbröd från Allerths Bageri"
-    loading="eager"
-    fetchpriority="high"
-  /> -->
 
   <section class="relative">
     <section id="main-content">
@@ -128,11 +113,6 @@
           <Divider class="my-8" />
 
           <section class="mb-8 flex flex-col">
-            <!-- <a
-              href="#news"
-              class="px-6 py-2 text-center text-xl text-green-500 underline underline-offset-2 hover:underline focus:text-green-500 focus:underline"
-              >Se <span class="whitespace-nowrap">nyheter</span></a
-            > -->
             <h2 class="mt-8 text-center font-display text-3xl font-bold">
               Site navigation
             </h2>
@@ -157,14 +137,14 @@
               <li>
                 <enhanced:img
                   src={allerthsBageriLogo}
-                  alt="Profilbild"
+                  alt="Allerths bageri profile picture"
                   class="mr-2 inline-block h-8 w-8 rounded-full object-cover shadow-md"
                 />
                 <a
                   href={instagramProfileLink}
                   class="inline-block font-medium underline-offset-2 hover:text-green-500 hover:underline focus:text-green-500 focus:underline"
                 >
-                  @allerthsbageri
+                  @vardamusic44
                 </a>
               </li>
             </ul>
@@ -197,17 +177,13 @@
             <enhanced:img
               class="mx-auto h-auto w-full max-w-[350px] object-cover"
               src={crystalBowlsTuning}
-              alt="Bild på Maggan som spelar på kristallskålar"
+              alt="A picture of Maggan playing the crystal bowls."
             />
           </article>
 
           <Divider />
 
           <article class="my-8 w-full px-4">
-            <!-- <h4 class="mb-4 text-center font-display text-2xl">
-                Kommande event:
-              </h4> -->
-
             <section id={events.soundSession.id}>
               <div class="mx-auto max-w-screen-sm">
                 <h2
@@ -338,15 +314,14 @@
               </h2>
               <div class="flex justify-center">
                 <p class="my-2 max-w-screen-sm text-2xl">
-                  SAXOPHONE RETREAT 14th of March 09:30 - 17.00 Central European
-                  Time
+                  UPCOMING RETREAT the 27th of June 09:30 - 17:00 swedish time
                 </p>
               </div>
 
               <div class="flex justify-center">
                 <p class="my-2 max-w-screen-sm">
                   Welcome to an undemanding and magical day where you get the
-                  chance to release stress and begin a journey towards your
+                  chance to release stress, and begin a journey towards your
                   inner true self.
                 </p>
               </div>
@@ -354,91 +329,69 @@
               <enhanced:img
                 class="mx-auto my-8 mt-8 h-auto w-full max-w-[500px] object-cover"
                 src={saxophoneRetreat}
-                alt="Välkommen till en saxofonretreat"
+                alt="Welcome to a saxophoneretreat"
               />
 
               <div class="flex justify-center">
                 <p class="my-2 max-w-screen-sm">
-                  I denna endagsretreat får du nya insikter, du får möta andra
-                  likasinnade och om du själv vill så öppnas nya dörrar för dig,
-                  du får växa som människa.
+                  In this oneday retreat you´ll get new insights, you will meet
+                  other likeminded och if you want , new doors will opens for
+                  you and you will grow and feel more aligned.
                 </p>
               </div>
 
               <div class="flex justify-center">
                 <p class="my-2 max-w-screen-sm">
-                  Maggan Allerth heter jag som leder dagen. Du får del av mina
-                  saxofoners rogivande toners musik, kristallskålarnas milda
-                  mjuka helande, läkande sång, tuning och rörelse. Du får med
-                  dig nya verktyg hem som du kan använda i din vardag. Ett
-                  yogapass med Lotta Andersson som yogainstruktör och gongspel
-                  ingår också.
+                  Maggan Allerth is my name who leeds this day. You will take
+                  part of my saxophones restful music, crystal bowls gentle
+                  healing sound, tuning and slow movement. You will get tools
+                  with you that you can use in your everyday life. A yoga class
+                  and a gong bath is also included. Yoga instructor Lotta
+                  Andersson will lead the class.
                 </p>
               </div>
 
-              <!-- <enhanced:img
-                  class="mx-auto my-8 h-auto w-full max-w-[350px] object-cover"
-                  src={saxophoneRetreatBread}
-                  alt="Bild på bröd vid saxofonretreat"
-                /> -->
-
               <div class="mx-auto mb-2 max-w-screen-sm">
-                Vi kommer jobba med Tuning-vårdande ljud, som är som näring för
-                rösten. Vilket också kan påbörja en läkningsprocess i din kropp.
-                Jag utgår ifrån Marie Bergmans metod.
-              </div>
-
-              <div class="mx-auto mb-2 max-w-screen-sm">
-                Denna dag är för dig som vill uppnå en djupare avslappning. Vi
-                jobbar med ärkeänglarna, bland annat med avslappning på
-                cellnivå.
-              </div>
-
-              <div class="mx-auto mb-2 max-w-screen-sm">
-                Min intention med dagen är att du ska få ta emot, få vila i dig
-                själv, känna glädje och stilla ro mitt i allt det du står i just
-                nu och upptäcka nya sidor hos dig själv.
+                Tuning is like nouriching sound for your voice and body. This
+                can provide a deeper healing in your body. I work with the
+                archangels and mother Mary.
               </div>
 
               <div class="mx-auto my-2 max-w-screen-sm">
+                <p>Food is included in the price, mention any allergy.</p>
                 <p>
-                  Denna heldag inkluderar mat, <a
-                    href={instagramProfileLink}
-                    target="_blank"
-                    class="text-green-500 underline-offset-2 hover:text-green-500 hover:underline focus:underline"
-                    >@allerthsbageri</a
-                  > står för surdegsbröd till lunchen & även något gott till eftermiddagsfikat.
+                  Investment in yourself: 1900 SEK. Book before 24th June at
+                  20:00.
                 </p>
                 <p>
-                  Investeringen i dig själv kostar 1990 SEK, anmälan senast den
-                  11/3 kl 18.00.
-                </p>
-                <p>
-                  Det finns möjlighet till rabatt vid tidig bokning, senast 1/2.
-                  Priset blir då 1700kr.
+                  Early bird price before 30th of May is 1700 SEK. Full payment
+                  two days before the event is required.
                 </p>
               </div>
 
               <Divider class="my-5" />
 
               <div class="mx-auto my-2 max-w-screen-sm">
-                <p>Betalning sker vid ankomst. Swish eller kontant.</p>
-                <p>Meddela gärna allergier i god tid.</p>
+                <p>
+                  Send me an e-mail and all details will be sent to you about
+                  payment.
+                </p>
+                <p>You will recieve a receipt.</p>
               </div>
 
               <div class="mx-auto max-w-screen-sm">
                 <p class="my-2">
-                  <span class="font-bold">Var:</span>
+                  <span class="font-bold">Where:</span>
                   Hällstads bygdegård. HÄLLSTAD 142, 523 95 Älmestad.
                 </p>
 
                 <p class="my-2">
-                  <span class="font-bold">Att ta med:</span>
-                  Yogamatta eller liggunderlag. Kudde och mjuka kläder.
+                  <span class="font-bold">To take with you:</span>
+                  Yogamat or sleeping pad, small pillow and soft clothing.
                 </p>
 
                 <p class="text-center font-bold">
-                  Välkommen med din anmälan eller frågor till:
+                  Welcome with your registration and any questions to:
                 </p>
                 <div class="flex justify-center text-center">
                   <EncryptedEmail />
@@ -459,8 +412,6 @@
             If you live in Sweden I also offer lessions in how to play
             saxophone. 🎷🎶
           </p>
-
-          <!-- TODO: Add varda-tree image with text on it -->
 
           <enhanced:img
             class="mx-auto my-8 h-auto w-full max-w-[400px] object-cover"
