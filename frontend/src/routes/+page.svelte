@@ -342,7 +342,7 @@
 
               <div class="flex justify-center">
                 <p class="my-2 max-w-screen-sm">
-                  Maggan Allerth is my name who leeds this day. You will take
+                  Maggan Allerth is my name who leads this day. You will take
                   part of my saxophones restful music, crystal bowls gentle
                   healing sound, tuning and slow movement. You will get tools
                   with you that you can use in your everyday life. A yoga class
@@ -352,7 +352,7 @@
               </div>
 
               <div class="mx-auto mb-2 max-w-screen-sm">
-                Tuning is like nouriching sound for your voice and body. This
+                Tuning is like nourishing sound for your voice and body. This
                 can provide a deeper healing in your body. I work with the
                 archangels and mother Mary.
               </div>
