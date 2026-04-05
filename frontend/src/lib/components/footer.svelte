@@ -1,50 +1,51 @@
 <script lang="ts">
   import EncryptedEmail from '$components/encrypted-email.svelte'
   import allerthsBageriLogo from '$assets/allerths-bageri-logo.jpeg?enhanced'
+  import { events } from '../../lib/constants'
 </script>
 
 <footer class="mt-8 border-t border-stone-400 px-4 py-8">
   <div class="mx-auto flex max-w-5xl flex-wrap justify-between">
     <div class="mb-8 w-full text-center sm:mb-0 sm:w-1/2 md:w-1/4 lg:w-1/5">
-      <h3 class="mb-4 text-lg font-bold">Sidolänkar</h3>
+      <h3 class="mb-4 text-lg font-bold">Site links</h3>
       <ul class="mb-4 list-none gap-y-2">
         <li>
           <a
             href="/#"
             class="text-[#004b47] underline-offset-2 hover:underline focus:underline"
-            >Upp till toppen</a
+            >Up to the top</a
           >
         </li>
         <li>
           <a
-            href="/#historia"
+            href="#{events['soundSession'].id}"
             class="text-[#004b47] underline-offset-2 hover:underline focus:underline"
-            >Historia</a
+            >{events['soundSession'].title}</a
           >
         </li>
         <li>
           <a
-            href="/#event"
+            href="/#{events['saxophonemeditations'].id}"
             class="text-[#004b47] underline-offset-2 hover:underline focus:underline"
-            >Kommande event</a
+            >{events['saxophonemeditations'].title}</a
           >
         </li>
         <li>
           <a
-            href="/#news"
+            href="/#{events['saxofonretreat'].id}"
             class="text-[#004b47] underline-offset-2 hover:underline focus:underline"
-            >Nyheter</a
+            >{events['saxofonretreat'].title}</a
           >
         </li>
       </ul>
     </div>
     <div class="mb-8 w-full text-center sm:mb-0 sm:w-1/2 md:w-1/4 lg:w-1/5">
-      <h3 class="mb-4 text-lg font-bold">Följ mig på Instagram</h3>
+      <h3 class="mb-4 text-lg font-bold">Follow me on instagram</h3>
       <ul class="mb-4 list-none">
         <li>
           <enhanced:img
             src={allerthsBageriLogo}
-            alt="Profilbild"
+            alt="Profile picture"
             class="mr-2 inline-block h-8 w-8 rounded-full object-cover shadow-md"
           />
           <a
@@ -57,7 +58,7 @@
       </ul>
     </div>
     <div class="mb-8 w-full text-center sm:mb-0 md:w-1/4 lg:w-1/5">
-      <h3 class="mb-4 text-lg font-bold">Kontakta mig</h3>
+      <h3 class="mb-4 text-lg font-bold">Contact me</h3>
       <EncryptedEmail />
     </div>
   </div>
