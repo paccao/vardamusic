@@ -13,28 +13,12 @@
   import magganPlayingSaxophone from '$assets/maggan-playing-the-saxophone.png?enhanced'
   import motherMarySong from '$assets/mother-mary.wav'
   import trolleboSaxophoneMeditations from '$assets/trollebo-saxophone-meditations.jpeg?enhanced'
-
+  import { events } from '../lib/constants'
   const siteName = 'Sacred Varda Music'
 
   // const bakingCourseDate = new Date('2026-03-21').toLocaleString('sv-SE', {
   //   dateStyle: 'full',
   // })
-
-  /** Map of event HTML ids to event titles */
-  const events = {
-    saxofonretreat: {
-      title: 'Retreats',
-      id: 'event-saxophoneretreat',
-    },
-    saxophonemeditations: {
-      title: 'Saxophonemeditations',
-      id: 'event-saxophonemeditation',
-    },
-    soundSession: {
-      title: 'Sacred sound session',
-      id: 'event-sound-session',
-    },
-  }
 </script>
 
 <Layout class="max-w-3xl xs:px-4" footer>
