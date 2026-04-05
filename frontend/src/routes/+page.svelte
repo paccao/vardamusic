@@ -72,6 +72,11 @@
           <div class="mx-auto max-w-sm text-center text-balance" id="intro">
             <h2 class="font-display text-3xl font-bold">Beloved, welcome!</h2>
             <p class="pt-4">
+              This is a sacred website and it is activated and loaded with pure
+              Christ conciousness, ancient wisdom, unconditional love. It´s a
+              sanctuary for those that are here to remember.
+            </p>
+            <p class="pt-4">
               We breath life into this moment here and now. There is no right or
               wrong way. When your heart feels joy - celebrate! When your heart
               feels quiet - honor that. Here and now everything is perfect.
@@ -94,15 +99,31 @@
           </audio>
           <p class="mx-auto max-w-sm text-center text-balance">
             Mother Mary holds you in a pale blue light of belonging. Take a deep
-            breath, relax and listen to this free short meditation at last 3
+            breath, relax and listen to this free short meditation at least 3
             times.
           </p>
           <Divider class="my-8" />
-          <p class="mx-auto max-w-sm text-center text-balance">
-            I don't know how you found me, but I know that you are here for a
-            reason. Enjoy all of this website, Me and the other angels have made
-            it especially for You🤍🪽
-          </p>
+          <div class="mx-auto max-w-sm text-center text-balance">
+            <p class="py-2">
+              I don't know how you found me, but I know that you are here for a
+              reason. Just by start reading here you begin to activate your
+              Female Divine within you. By reading this you will start
+              remembering who you truly are.
+            </p>
+            <p class="py-2">
+              If you can feel a YES in your body then this is your home. You
+              have felt the call and right now you don´t know what you shall do
+              with it. <a
+                href="#read-more"
+                class=" text-green-500 underline underline-offset-2 hover:underline focus:text-green-500 focus:underline"
+                >Read more here</a
+              >
+            </p>
+            <p class="py-2">
+              Enjoy all of this website. Me and all the other angels have made
+              it especially for you. 🤍🪽
+            </p>
+          </div>
           <Divider class="my-8" />
 
           <section class="mb-8 flex flex-col">
@@ -148,415 +169,296 @@
             </ul>
           </section>
 
-          <div class="mx-4 flex justify-center" id="historia">
-            <!-- <enhanced:img
-              class="h-auto w-full max-w-[400px] rounded-md object-cover shadow-md xs:rounded-md"
-              src={boxWithGoodies}
-              loading="eager"
-              alt="Låda med bakverk, örter och växter."
-            /> -->
-          </div>
+          <Divider />
 
           <article class="my-8 w-full px-4">
             <h3 class="text-center font-display text-3xl font-bold">
               Who am I?
             </h3>
-            <p class="mt-4">
-              I got a call from my heart, something shifted in me. I tried to
-              neglete it for a looong time but finally I could not do that
-              anymore. So I quit my job and started to develope my new
-              business-my bakery. But pretty soon I felt that there is more for
-              me.
-            </p>
-            <!-- TODO: Add picture of Maggan -->
+            <div class="mx-auto mb-2 max-w-screen-sm">
+              <p class="pt-4">
+                I got a call from my heart, something shifted in me. I tried to
+                neglete it for a looong time but finally I could not do that
+                anymore. So I quit my job and started to develope my new
+                business-my bakery. But pretty soon I felt that there is more
+                for me.
+              </p>
+              <p class="pt-4">
+                So now I also work with healing sounds in different wonderful
+                ways. I am so happy and honored that I get to help others to
+                release that which no longer serves them and instead feel more
+                anchored and at ease so they can find the true path they´ve
+                always longed for, but didn´t know how to find. I work with The
+                Archangels, Mother Mary, Jesus and Mary Magdalene.
+              </p>
+            </div>
           </article>
-
-          <!-- <div class="gap my-8 grid columns-2 grid-cols-2 grid-rows-2 gap-2">
-            <enhanced:img
-              class="aspect-square h-auto w-full rounded-md object-cover shadow-md"
-              src={allerthsBageriLogo}
-              alt="Kulturbröd uppställt för försäljning"
-            />
-            <enhanced:img
-              class="aspect-square h-auto w-full rounded-md object-cover shadow-md"
-              src={sixthHantverksbrod}
-              alt="Kulturbröd uppställt för försäljning"
-            />
-            <enhanced:img
-              class="aspect-square h-auto w-full rounded-md object-cover shadow-md"
-              src={pumpabrod}
-              alt="Kulturbröd uppställt för försäljning"
-            />
-            <enhanced:img
-              class="aspect-square h-auto w-full rounded-md object-cover shadow-md"
-              src={breadMarketPlace}
-              alt="Kulturbröd uppställt för försäljning"
-            />
-          </div> -->
 
           <Divider />
 
-          <section id="news">
-            <!-- <h4 class="mb-4 text-center font-display text-2xl">Nyheter!</h4> -->
-
-            <!-- <article class="grid justify-center gap-2 xs:grid-cols-2 xs:px-4">
-              <enhanced:img
-                class="mx-auto h-auto max-h-[500px] min-h-60 w-full max-w-[300px] items-center rounded-r-md object-cover shadow-md xs:rounded-md"
-                src={breadPrenumeration}
-                alt="Hantverksbröd"
-              />
-              <div class="mt-4 pr-4">
-                <p class="mb-4 text-center font-display text-4xl font-bold">
-                  Nu lanserar Allerths bageri brödprenumeration!
-                </p>
-                <p class="mt-4 px-4 text-center">
-                  Du har nu möjlighet att starta en brödprenumeration: 2 till
-                  10/15 bröd per månad eller varannan månad så du är säker på
-                  att alltid ha tillgång till goda hantverksbröd.
-                </p>
-              </div>
-            </article> -->
-
-            <!-- <p class="mt-8 px-4 text-center">
-              Du kan just nu välja mellan ett ljusare surdegsbröd eller rågkraft
-              som bakas på enbart råg. Du kan avsluta din prenumeration när du
-              önskar dock senast tre hela arbetsdagar innan nästa leverans.
-            </p>
-
-            <p class="mt-8 px-4 text-center">
-              Boka din prenumeration via mejl: <EncryptedEmail />
-            </p>
-
-            <div class="mt-8 flex justify-center">
-              <enhanced:img
-                class="h-auto w-full rounded-l-md object-cover shadow-md"
-                src={kakaobrod}
-                alt="Surdegsbröd med kakao som dekoration för halloween."
-              />
-              <enhanced:img
-                class="aspect-square h-full w-full rounded-r-md object-cover shadow-md"
-                src={kladdkakekakor}
-                alt="Kakor gjorda på kladdkaka"
-              />
-            </div> -->
-
-            <!-- <Divider /> -->
-
-            <!-- <p class="mt-8 px-4 text-center font-display text-3xl font-bold">
-              Erbjudande: Designade hantverksbröd
-            </p>
-
-            <p class="mt-8 px-4 text-center">
-              Skulle du vilja ha en unik gåva att ge till den där, du vet, som
-              "redan har allt". Vad ska vi ge som present? Ett exklusivt
-              hantverksbröd, designat för just den/de personerna kan vara något
-              alldeles extra att ge till dina vänner.
-            </p>
-
-            <p class="mt-8 px-4 text-center">
-              Jag specialdesignar gärna ditt bröd med det utseende vi kommer
-              fram till tillsammans. Hör av dig via mail så tar vi det därifrån: <EncryptedEmail
-              />
-            </p>
-
-            <enhanced:img
-              class="mx-auto my-8 mt-8 h-auto w-full max-w-[500px] object-cover"
-              src={specialdesignatBrod}
-              alt="En bild på mitt specialdesignade bröd som du kan beställa"
-            />
-
-            <Divider /> -->
-
-            <!-- <p class="mt-8 px-4 text-center">
-              Allerths bageri har tilldelats ett microstöd från Leader Sjuhärad
-              "förstudie i entreprenörskap" för att kunna utöka bageriets
-              verksamhet. Dessutom fokus på miljö och hållbarhet.
-            </p>
-
-            <div class="mt-8 flex justify-center">
-              <enhanced:img
-                class="h-auto w-full rounded-md object-cover p-4 shadow-md"
-                src={leaderSjuharad}
-                alt="Logotyp Leader Sjuhärad"
-              />
-            </div>
-
-            <Divider /> -->
-
-            <!-- <h3 class="mb-8 text-center font-display text-3xl font-bold">
-              Kommande marknader där du träffar Allerths bageri:
-            </h3>
-
-            <article class="grid gap-4 xs:grid-cols-2">
-              <enhanced:img
-                class="mx-auto h-auto max-h-[500px] min-h-60 w-full max-w-[300px] items-center rounded-r-md object-cover shadow-md xs:rounded-md"
-                src={breadMarket}
-                alt="Hantverksbröd till försäljning på marknad"
-              />
-
-              <ul class="list-inside list-disc space-y-2 px-4 xs:pl-0">
-                <li>
-                  Torsdagar från kl 09.30 finns färskt surdegsbröd vid Tolkabro
-                  handel. Kolla instagram för eventuella ändringar <a
-                    href={instagramProfileLink}
-                    target="_blank"
-                    class="text-green-500 underline-offset-2 hover:text-green-500 hover:underline focus:underline"
-                    >@allerthsbageri</a
-                  >
-                </li>
-                <li>REKO-ringen Ulricehamn - jämna veckor</li>
-                <li>REKO-ringen Borås - ojämna veckor</li>
-                <li>7/2 Alboga blommor & jord i Od kl 10-14</li>
-                <li>28/3 Vårmarknad Bogastugan Hökerum</li>
-                <li>11/4 Vårmarknad Västanå, Varnum</li>
-              </ul>
-            </article>
-          </section>
-
-          <Divider /> -->
-
-            <article class="my-4 w-full px-4 pt-4" id="event">
-              <!-- <h4 class="mb-4 text-center font-display text-2xl">
+          <article class="my-8 w-full px-4 pt-4">
+            <!-- <h4 class="mb-4 text-center font-display text-2xl">
                 Kommande event:
               </h4> -->
 
-              <section id={events.soundSession.id}>
-                <!-- <h2
-                  class="mb-4 text-center font-display text-4xl font-bold"
+            <section id={events.soundSession.id}>
+              <div class="mx-auto max-w-screen-sm">
+                <enhanced:img
+                  class="mx-auto h-auto w-full max-w-[350px] object-cover"
+                  src={crystalBowlsTuning}
+                  alt="Bild på Maggan som spelar på kristallskålar"
+                />
+                <h2
+                  class="mb-4 pt-8 text-center font-display text-4xl font-bold"
                   id={events.soundSession.id}
                 >
                   {events.soundSession.title}
-                </h2> -->
-                <div class="mx-auto max-w-screen-sm">
-                  <enhanced:img
-                    class="mx-auto my-8 h-auto w-full max-w-[350px] object-cover"
-                    src={crystalBowlsTuning}
-                    alt="Bild på Maggan som spelar på kristallskålar"
-                  />
-                  <div class="mx-auto mb-2 max-w-screen-sm">
-                    <p class="my-2">
-                      With help from sound, our own voice and in combination
-                      with my voice you can start to regulate your nervous
-                      system into calm and peace. And through tuning we feel
-                      more in balance and start to heal things in our body. We
-                      can once again feel that inner stillness. I will also use
-                      my crystal bowls when we meet.
-                    </p>
-                  </div>
+                </h2>
+                <div class="mx-auto my-2 mb-2 max-w-screen-sm">
+                  <p class="pt-2">
+                    With help from sound, our own voice and in combination with
+                    my voice you can start to regulate your nervous system into
+                    calm and peace. And through tuning we feel more in balance
+                    and start to heal things in our body. We can once again feel
+                    that inner stillness. A personal sound healing session is
+                    included.
+                  </p>
 
-                  <p class="text-center">
+                  <p class="pt-2">
                     I invite you to try this for yourself and book a 1 on 1
                     session with me. I would love to hear from you. Send me an
                     email and I will give you some suggestions when we can meet,
                     in person or online. This can also be done in smaller
-                    groups.
-                  </p>
-                  <div class="flex justify-center text-center">
-                    <EncryptedEmail />
-                  </div>
-                </div>
-              </section>
-
-              <Divider />
-
-              <section>
-                <h2
-                  class="mb-4 text-center font-display text-4xl font-bold"
-                  id={events.saxophonemeditations.id}
-                >
-                  {events.saxophonemeditations.title}
-                </h2>
-                <div class="mx-auto mb-2 max-w-screen-sm">
-                  <p class="my-2">
-                    The next saxophone meditation will be on the 1st of March
-                    16:00 Central European Time.
-                  </p>
-
-                  <p class="my-2">
-                    During the winter we will gather at Equmeniakyrkan in
-                    Hökerum. When the spring comes we move the meditations out
-                    in the woods again.
-                  </p>
-
-                  <p class="my-2">
-                    Afterwards we will enjoy a fika together with sourdough
-                    bread from <a
-                      href={instagramProfileLink}
-                      target="_blank"
-                      class="text-green-500 underline-offset-2 hover:text-green-500 hover:underline focus:underline"
-                      >@allerthsbageri</a
-                    > and herb tea.
+                    groups. We work together for one hour.
                   </p>
                 </div>
-
-                <Divider class="my-5" />
-
-                <div class="mx-auto max-w-screen-sm">
-                  <p class="my-2">
-                    <span class="font-bold">When:</span>
-                    Upcoming meditations: 4/1, 1/2, 1/3, 29/3, 26/4, 31/5, 14/6
-                  </p>
-                  <p class="my-2">
-                    <span class="font-bold">Price:</span>
-                    220 SEK
-                  </p>
-                  <p class="my-2">
-                    <span class="font-bold">Where: </span>
-                    Grovare Spången 101, outside of Hökerum.
-                    <span class="font-bold">Wintertime:</span> Equmeniakyrkan, Hökerum.
-                  </p>
-
-                  <p class="text-center font-bold">
-                    ✨ You are welcome to register by sending me an email:
-                  </p>
-                  <div class="flex justify-center text-center">
-                    <EncryptedEmail />
-                  </div>
+                <div class="flex justify-center text-center">
+                  <EncryptedEmail />
                 </div>
-              </section>
+              </div>
+            </section>
 
-              <Divider />
+            <Divider />
 
-              <section>
-                <h2
-                  class="mb-4 text-center font-display text-4xl font-bold"
-                  id={events.saxofonretreat.id}
-                >
-                  Are you ready for a positive change?
-                </h2>
-                <div class="flex justify-center">
-                  <p class="my-2 max-w-screen-sm text-2xl">
-                    SAXOPHONE RETREAT 14th of March 09:30 - 17.00 Central
-                    European Time
-                  </p>
+            <section>
+              <h2
+                class="mb-4 text-center font-display text-4xl font-bold"
+                id={events.saxophonemeditations.id}
+              >
+                {events.saxophonemeditations.title}
+              </h2>
+              <div class="mx-auto mb-2 max-w-screen-sm">
+                <p class="my-2">
+                  The next saxophone meditation will be on the 1st of March
+                  16:00 Central European Time.
+                </p>
+
+                <p class="my-2">
+                  During the winter we will gather at Equmeniakyrkan in Hökerum.
+                  When the spring comes we move the meditations out in the woods
+                  again.
+                </p>
+
+                <p class="my-2">
+                  Afterwards we will enjoy a fika together with sourdough bread
+                  from <a
+                    href={instagramProfileLink}
+                    target="_blank"
+                    class="text-green-500 underline-offset-2 hover:text-green-500 hover:underline focus:underline"
+                    >@allerthsbageri</a
+                  > and herb tea.
+                </p>
+              </div>
+
+              <Divider class="my-5" />
+
+              <div class="mx-auto max-w-screen-sm">
+                <p class="my-2">
+                  <span class="font-bold">When:</span>
+                  Upcoming meditations: 4/1, 1/2, 1/3, 29/3, 26/4, 31/5, 14/6
+                </p>
+                <p class="my-2">
+                  <span class="font-bold">Price:</span>
+                  220 SEK
+                </p>
+                <p class="my-2">
+                  <span class="font-bold">Where: </span>
+                  Grovare Spången 101, outside of Hökerum.
+                  <span class="font-bold">Wintertime:</span> Equmeniakyrkan, Hökerum.
+                </p>
+
+                <p class="text-center font-bold">
+                  ✨ You are welcome to register by sending me an email:
+                </p>
+                <div class="flex justify-center text-center">
+                  <EncryptedEmail />
                 </div>
+              </div>
+            </section>
 
-                <div class="flex justify-center">
-                  <p class="my-2 max-w-screen-sm">
-                    Welcome to an undemanding and magical day where you get the
-                    chance to release stress and begin a journey towards your
-                    inner true self.
-                  </p>
-                </div>
+            <Divider />
 
-                <enhanced:img
-                  class="mx-auto my-8 mt-8 h-auto w-full max-w-[500px] object-cover"
-                  src={saxophoneRetreat}
-                  alt="Välkommen till en saxofonretreat"
-                />
+            <section>
+              <h2
+                class="mb-4 text-center font-display text-4xl font-bold"
+                id={events.saxofonretreat.id}
+              >
+                Are you ready for a positive change?
+              </h2>
+              <div class="flex justify-center">
+                <p class="my-2 max-w-screen-sm text-2xl">
+                  SAXOPHONE RETREAT 14th of March 09:30 - 17.00 Central European
+                  Time
+                </p>
+              </div>
 
-                <div class="flex justify-center">
-                  <p class="my-2 max-w-screen-sm">
-                    I denna endagsretreat får du nya insikter, du får möta andra
-                    likasinnade och om du själv vill så öppnas nya dörrar för
-                    dig, du får växa som människa.
-                  </p>
-                </div>
+              <div class="flex justify-center">
+                <p class="my-2 max-w-screen-sm">
+                  Welcome to an undemanding and magical day where you get the
+                  chance to release stress and begin a journey towards your
+                  inner true self.
+                </p>
+              </div>
 
-                <div class="flex justify-center">
-                  <p class="my-2 max-w-screen-sm">
-                    Maggan Allerth heter jag som leder dagen. Du får del av mina
-                    saxofoners rogivande toners musik, kristallskålarnas milda
-                    mjuka helande, läkande sång, tuning och rörelse. Du får med
-                    dig nya verktyg hem som du kan använda i din vardag. Ett
-                    yogapass med Lotta Andersson som yogainstruktör och gongspel
-                    ingår också.
-                  </p>
-                </div>
+              <enhanced:img
+                class="mx-auto my-8 mt-8 h-auto w-full max-w-[500px] object-cover"
+                src={saxophoneRetreat}
+                alt="Välkommen till en saxofonretreat"
+              />
 
-                <!-- <enhanced:img
+              <div class="flex justify-center">
+                <p class="my-2 max-w-screen-sm">
+                  I denna endagsretreat får du nya insikter, du får möta andra
+                  likasinnade och om du själv vill så öppnas nya dörrar för dig,
+                  du får växa som människa.
+                </p>
+              </div>
+
+              <div class="flex justify-center">
+                <p class="my-2 max-w-screen-sm">
+                  Maggan Allerth heter jag som leder dagen. Du får del av mina
+                  saxofoners rogivande toners musik, kristallskålarnas milda
+                  mjuka helande, läkande sång, tuning och rörelse. Du får med
+                  dig nya verktyg hem som du kan använda i din vardag. Ett
+                  yogapass med Lotta Andersson som yogainstruktör och gongspel
+                  ingår också.
+                </p>
+              </div>
+
+              <!-- <enhanced:img
                   class="mx-auto my-8 h-auto w-full max-w-[350px] object-cover"
                   src={saxophoneRetreatBread}
                   alt="Bild på bröd vid saxofonretreat"
                 /> -->
 
-                <div class="mx-auto mb-2 max-w-screen-sm">
-                  Vi kommer jobba med Tuning-vårdande ljud, som är som näring
-                  för rösten. Vilket också kan påbörja en läkningsprocess i din
-                  kropp. Jag utgår ifrån Marie Bergmans metod.
+              <div class="mx-auto mb-2 max-w-screen-sm">
+                Vi kommer jobba med Tuning-vårdande ljud, som är som näring för
+                rösten. Vilket också kan påbörja en läkningsprocess i din kropp.
+                Jag utgår ifrån Marie Bergmans metod.
+              </div>
+
+              <div class="mx-auto mb-2 max-w-screen-sm">
+                Denna dag är för dig som vill uppnå en djupare avslappning. Vi
+                jobbar med ärkeänglarna, bland annat med avslappning på
+                cellnivå.
+              </div>
+
+              <div class="mx-auto mb-2 max-w-screen-sm">
+                Min intention med dagen är att du ska få ta emot, få vila i dig
+                själv, känna glädje och stilla ro mitt i allt det du står i just
+                nu och upptäcka nya sidor hos dig själv.
+              </div>
+
+              <div class="mx-auto my-2 max-w-screen-sm">
+                <p>
+                  Denna heldag inkluderar mat, <a
+                    href={instagramProfileLink}
+                    target="_blank"
+                    class="text-green-500 underline-offset-2 hover:text-green-500 hover:underline focus:underline"
+                    >@allerthsbageri</a
+                  > står för surdegsbröd till lunchen & även något gott till eftermiddagsfikat.
+                </p>
+                <p>
+                  Investeringen i dig själv kostar 1990 SEK, anmälan senast den
+                  11/3 kl 18.00.
+                </p>
+                <p>
+                  Det finns möjlighet till rabatt vid tidig bokning, senast 1/2.
+                  Priset blir då 1700kr.
+                </p>
+              </div>
+
+              <Divider class="my-5" />
+
+              <div class="mx-auto my-2 max-w-screen-sm">
+                <p>Betalning sker vid ankomst. Swish eller kontant.</p>
+                <p>Meddela gärna allergier i god tid.</p>
+              </div>
+
+              <div class="mx-auto max-w-screen-sm">
+                <p class="my-2">
+                  <span class="font-bold">Var:</span>
+                  Hällstads bygdegård. HÄLLSTAD 142, 523 95 Älmestad.
+                </p>
+
+                <p class="my-2">
+                  <span class="font-bold">Att ta med:</span>
+                  Yogamatta eller liggunderlag. Kudde och mjuka kläder.
+                </p>
+
+                <p class="text-center font-bold">
+                  Välkommen med din anmälan eller frågor till:
+                </p>
+                <div class="flex justify-center text-center">
+                  <EncryptedEmail />
                 </div>
+              </div>
+            </section>
+          </article>
 
-                <div class="mx-auto mb-2 max-w-screen-sm">
-                  Denna dag är för dig som vill uppnå en djupare avslappning. Vi
-                  jobbar med ärkeänglarna, bland annat med avslappning på
-                  cellnivå.
-                </div>
+          <Divider />
 
-                <div class="mx-auto mb-2 max-w-screen-sm">
-                  Min intention med dagen är att du ska få ta emot, få vila i
-                  dig själv, känna glädje och stilla ro mitt i allt det du står
-                  i just nu och upptäcka nya sidor hos dig själv.
-                </div>
+          <enhanced:img
+            class="mx-auto my-8 h-auto w-full max-w-[250px] object-cover"
+            src={magganPlayingSaxophone}
+            alt="Maggan playing the saxophone"
+          />
 
-                <div class="mx-auto my-2 max-w-screen-sm">
-                  <p>
-                    Denna heldag inkluderar mat, <a
-                      href={instagramProfileLink}
-                      target="_blank"
-                      class="text-green-500 underline-offset-2 hover:text-green-500 hover:underline focus:underline"
-                      >@allerthsbageri</a
-                    > står för surdegsbröd till lunchen & även något gott till eftermiddagsfikat.
-                  </p>
-                  <p>
-                    Investeringen i dig själv kostar 1990 SEK, anmälan senast
-                    den 11/3 kl 18.00.
-                  </p>
-                  <p>
-                    Det finns möjlighet till rabatt vid tidig bokning, senast
-                    1/2. Priset blir då 1700kr.
-                  </p>
-                </div>
+          <p class="text-center font-bold">
+            If you live in Sweden I also offer lessions in how to play
+            saxophone. 🎷🎶
+          </p>
 
-                <Divider class="my-5" />
+          <!-- TODO: Add varda-tree image with text on it -->
 
-                <div class="mx-auto my-2 max-w-screen-sm">
-                  <p>Betalning sker vid ankomst. Swish eller kontant.</p>
-                  <p>Meddela gärna allergier i god tid.</p>
-                </div>
-
-                <div class="mx-auto max-w-screen-sm">
-                  <p class="my-2">
-                    <span class="font-bold">Var:</span>
-                    Hällstads bygdegård. HÄLLSTAD 142, 523 95 Älmestad.
-                  </p>
-
-                  <p class="my-2">
-                    <span class="font-bold">Att ta med:</span>
-                    Yogamatta eller liggunderlag. Kudde och mjuka kläder.
-                  </p>
-
-                  <p class="text-center font-bold">
-                    Välkommen med din anmälan eller frågor till:
-                  </p>
-                  <div class="flex justify-center text-center">
-                    <EncryptedEmail />
-                  </div>
-                </div>
-              </section>
-            </article>
-
-            <Divider />
-
-            <enhanced:img
-              class="mx-auto my-8 h-auto w-full max-w-[250px] object-cover"
-              src={magganPlayingSaxophone}
-              alt="Maggan playing the saxophone"
-            />
-
-            <p class="text-center font-bold">
-              If you live in Sweden I also offer lessions in how to play
-              saxophone. 🎷🎶
+          <enhanced:img
+            class="mx-auto my-8 h-auto w-full max-w-[400px] object-cover"
+            src={treeOfVardaWithText}
+            alt="A picture of a tree that represents Varda, inviting you to send an email"
+          />
+          <Divider />
+          <article class="my-4 w-full px-4 pt-4" id="read-more">
+            <h4>Beloved,</h4>
+            <p class="pt-2">
+              You´re so welcome to my sanctuary. It´s a home for you and all
+              angelic beings. It is a sacred space for those ready to step into
+              their own initiation, to move beyond limitations, to connect more
+              deeply with their soul wisdom and to start embody their unique
+              gifts in the world.
             </p>
-
-            <!-- TODO: Add varda-tree image with text on it -->
-
-            <enhanced:img
-              class="mx-auto my-8 h-auto w-full max-w-[400px] object-cover"
-              src={treeOfVardaWithText}
-              alt="A picture of a tree that represents Varda, inviting you to send an email"
-            />
-            <Divider />
-          </section>
+            <p class="pt-2">
+              If this resonates with you, you are a chosen one and I am here to
+              guide you, help you activate yourself and become fully You. I
+              understand that you feel a little bit confused right now because i
+              have been there too, I know, I really KNOW how it feels.
+            </p>
+            <p class="pt-2">
+              If you chose to contact me you will start your journey to a more
+              fullfilled life. Maybe it will take some time but I invite you to
+              start the journey for real. Me and all the other angels love You.
+            </p>
+            <h4 class="pt-2">Thank you!</h4>
+          </article>
         </div>
       </section>
     </section>
