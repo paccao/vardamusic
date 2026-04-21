@@ -168,6 +168,49 @@
           <Divider />
 
           <article class="my-8 w-full px-4">
+            <section id={events.soundConcerts.id}>
+              <div class="mx-auto max-w-screen-sm">
+                <h2
+                  class="mb-4 text-center font-display text-4xl font-bold"
+                  id={events.soundConcerts.id}
+                >
+                  {events.soundConcerts.title} - 10:th maj 17.00
+                </h2>
+                <div class="mx-auto my-2 mb-2 max-w-screen-sm">
+                  <h3 class="font- text-center">With the arch angels</h3>
+
+                  <p class="pt-2">
+                    I was inspired to make a concert with sounds, saxophone,
+                    piano, crystal bowls and my voice. I will have some friends
+                    with me in some of the songs. It will be calming, peaceful
+                    but also activating in the same time.
+                  </p>
+
+                  <p class="my-2">
+                    <span class="font-bold">Booking</span> is required by email, last
+                    date 8th of may.
+                  </p>
+
+                  <p class="my-2">
+                    <span class="font-bold">Where: </span> Equmeniakyrkan, Hökerum.
+                    Vallvägen 2, 523 74 Hökerum.
+                  </p>
+
+                  <p class="my-2">
+                    <span class="font-bold">Cost: </span> 200 SEK, pay on site
+                  </p>
+                </div>
+
+                <p class="my-2 text-center">I would love to see you there.</p>
+
+                <div class="flex justify-center text-center">
+                  <EncryptedEmail />
+                </div>
+              </div>
+            </section>
+
+            <Divider />
+
             <section id={events.soundSession.id}>
               <div class="mx-auto max-w-screen-sm">
                 <h2
@@ -298,7 +341,7 @@
               </h2>
               <div class="flex justify-center">
                 <p class="my-2 max-w-screen-sm text-2xl">
-                  UPCOMING RETREAT the 27th of June 09:30 - 17:00 swedish time
+                  UPCOMING RETREAT the 9th of August 09:30 - 17:30 swedish time
                 </p>
               </div>
 
@@ -319,7 +362,7 @@
               <div class="flex justify-center">
                 <p class="my-2 max-w-screen-sm">
                   In this oneday retreat you'll get new insights, you will meet
-                  other likeminded och if you want , new doors will opens for
+                  other like-minded och if you want , new doors will opens for
                   you and you will grow and feel more aligned.
                 </p>
               </div>
@@ -344,12 +387,12 @@
               <div class="mx-auto my-2 max-w-screen-sm">
                 <p>Food is included in the price, mention any allergy.</p>
                 <p>
-                  Investment in yourself: 1900 SEK. Book before 24th June at
+                  Investment in yourself: 1950 SEK. Book before 3rd of August at
                   20:00.
                 </p>
                 <p>
-                  Early bird price before 30th of May is 1700 SEK. Full payment
-                  two days before the event is required.
+                  Early bird price before 15th of June is 1650 SEK. Full payment
+                  on the 4th of August is required.
                 </p>
               </div>
 
@@ -357,7 +400,7 @@
 
               <div class="mx-auto my-2 max-w-screen-sm">
                 <p>
-                  Send me an e-mail and all details will be sent to you about
+                  Send me an email and all details will be sent to you about
                   payment.
                 </p>
                 <p>You will recieve a receipt.</p>
@@ -374,7 +417,7 @@
                   Yogamat or sleeping pad, small pillow and soft clothing.
                 </p>
 
-                <p class="text-center font-bold">
+                <p class="text-center">
                   Welcome with your registration and any questions to:
                 </p>
                 <div class="flex justify-center text-center">
