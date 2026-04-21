@@ -55,7 +55,7 @@
             <enhanced:img
               src={treeOfVarda}
               alt="A picture of a tree that represents Varda"
-              class="mx-auto my-8 h-auto w-full max-w-[350px] object-cover"
+              class="mx-auto my-8 h-auto w-full max-w-[350px] rounded-md object-cover"
             />
             <p>
               Varda - she rescues the elves from danger to a safe place with
@@ -159,7 +159,7 @@
             </div>
 
             <enhanced:img
-              class="mx-auto h-auto w-full max-w-[350px] object-cover"
+              class="mx-auto h-auto w-full max-w-[350px] rounded-md object-cover"
               src={crystalBowlsTuning}
               alt="A picture of Maggan playing the crystal bowls."
             />
@@ -221,12 +221,12 @@
                 </h2>
                 <div class="mx-auto my-2 mb-2 max-w-screen-sm">
                   <p class="pt-2">
-                    With help from sound, our own voice and in combination with
-                    my voice you can start to regulate your nervous system into
-                    calm and peace. And through tuning we feel more in balance
-                    and start to heal things in our body. We can once again feel
-                    that inner stillness. A personal sound healing session is
-                    included.
+                    With the help of sound, your own voice and in combination
+                    with my voice you can start to regulate your nervous system
+                    into calm and peace. And through tuning we feel more in
+                    balance and start to heal things in our body. We can once
+                    again feel that inner stillness. A personal sound healing
+                    session is included.
                   </p>
 
                   <p class="pt-2">
@@ -245,12 +245,11 @@
 
             <Divider />
 
-            <section>
+            <section id={events.saxophonemeditations.id}>
               <enhanced:img
-                class="mx-auto h-auto w-full max-w-[350px] object-cover py-2"
+                class="mx-auto h-auto w-full max-w-[350px] rounded-md object-cover"
                 src={trolleboSaxophoneMeditations}
                 alt="Saxophone meditations in the forest, a picture of a mystical creature in Rångedala"
-                id={events.saxophonemeditations.id}
               />
               <h2 class="my-4 text-center font-display text-4xl font-bold">
                 {events.saxophonemeditations.title}
@@ -354,7 +353,7 @@
               </div>
 
               <enhanced:img
-                class="mx-auto my-8 mt-8 h-auto w-full max-w-[500px] object-cover"
+                class="mx-auto my-8 mt-8 h-auto w-full max-w-[500px] rounded-md object-cover"
                 src={saxophoneRetreat}
                 alt="Welcome to a saxophoneretreat"
               />
@@ -403,7 +402,7 @@
                   Send me an email and all details will be sent to you about
                   payment.
                 </p>
-                <p>You will recieve a receipt.</p>
+                <p>You will receive a receipt.</p>
               </div>
 
               <div class="mx-auto max-w-screen-sm">
@@ -430,7 +429,7 @@
           <Divider />
 
           <enhanced:img
-            class="mx-auto my-8 h-auto w-full max-w-[250px] object-cover"
+            class="mx-auto my-8 h-auto w-full max-w-[250px] rounded-md object-cover"
             src={magganPlayingSaxophone}
             alt="Maggan playing the saxophone"
           />
@@ -441,7 +440,7 @@
           </p>
 
           <enhanced:img
-            class="mx-auto my-8 h-auto w-full max-w-[400px] object-cover"
+            class="mx-auto my-8 h-auto w-full max-w-[400px] rounded-md object-cover"
             src={treeOfVardaWithText}
             alt="A picture of a tree that represents Varda, inviting you to send an email"
           />
@@ -460,7 +459,7 @@
               activate yourself and become fully You.
             </p>
             <p class="pt-2">
-              If you chose to contact me you will start your journey to a more
+              If you choose to contact me you will start your journey to a more
               fullfilled life. I invite you to start the journey for real. Me
               and all the other angels love You.
             </p>
