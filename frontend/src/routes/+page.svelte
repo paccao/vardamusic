@@ -11,7 +11,7 @@
   import treeOfVarda from '$assets/tree-of-varda.jpeg?enhanced'
   import treeOfVardaWithText from '$assets/tree-of-varda-with-text.jpeg?enhanced'
   import magganPlayingSaxophone from '$assets/maggan-playing-the-saxophone.png?enhanced'
-  import motherMarySong from '$assets/mother-mary.wav'
+  import motherMarySong from '$assets/mother-mary-1.wav'
   import trolleboSaxophoneMeditations from '$assets/trollebo-saxophone-meditations.jpeg?enhanced'
   import { events } from '../lib/constants'
   const siteName = 'Sacred Varda Music'
@@ -413,15 +413,13 @@
               gifts in the world.
             </p>
             <p class="pt-2">
-              If this resonates with you, you are a chosen one and I am here to
-              guide you, help you activate yourself and become fully You. I
-              understand that you feel a little bit confused right now because i
-              have been there too, I know, I really KNOW how it feels.
+              If this resonates with you, I am here to guide you and help you
+              activate yourself and become fully You.
             </p>
             <p class="pt-2">
               If you chose to contact me you will start your journey to a more
-              fullfilled life. Maybe it will take some time but I invite you to
-              start the journey for real. Me and all the other angels love You.
+              fullfilled life. I invite you to start the journey for real. Me
+              and all the other angels love You.
             </p>
             <h4 class="pt-2">Thank you!</h4>
           </article>
