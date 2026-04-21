@@ -181,9 +181,10 @@
 
                   <p class="pt-2">
                     I was inspired to make a concert with sounds, saxophone,
-                    piano, crystal bowls and my voice. I will have some friends
-                    with me in some of the songs. It will be calming, peaceful
-                    but also activating in the same time.
+                    piano, crystal bowls and my voice. This concert will include
+                    songs and poems written by me that will be performed. It
+                    will be calming, peaceful but also activating in the same
+                    time.
                   </p>
 
                   <p class="my-2">
