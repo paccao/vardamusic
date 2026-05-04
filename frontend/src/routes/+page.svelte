@@ -72,6 +72,20 @@
             breath, relax and listen to this free short meditation at least 3
             times.
           </p>
+          <p class="mx-auto max-w-sm py-2 text-center text-balance">
+            I have just started building a library of my meditation music, to
+            help you raise your frequency, and also calm your nervous system.
+            Some of them has a text file included so that you can fully anchor.
+          </p>
+          <p class="mx-auto max-w-sm py-2 text-center text-balance">
+            You can buy some of my music already, just send me an email. You can
+            also listen to my music on instagram <a
+              href={instagramProfileLink}
+              class="inline-block font-medium text-[#004b47] underline-offset-2 hover:text-[#004b47] hover:underline focus:text-[#004b47] focus:underline"
+            >
+              @vardamusic44
+            </a>
+          </p>
           <Divider class="my-8" />
           <div class="mx-auto max-w-sm text-center text-balance">
             <p class="py-2">
