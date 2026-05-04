@@ -283,13 +283,13 @@
                 src={trolleboSaxophoneMeditations}
                 alt="Saxophone meditations in the forest, a picture of a mystical creature in Rångedala"
               />
-              <h2 class="my-4 text-center font-display text-4xl font-bold">
+              <h2 class="mt-8 mb-4 text-center font-display text-4xl font-bold">
                 {events.saxophonemeditations.title}
               </h2>
               <div class="mx-auto mb-2 max-w-screen-sm">
                 <p class="my-2">
-                  The next saxophone meditation will be on the 26th of April
-                  16:00 swedish time.
+                  The next saxophone meditation will be on the 31st of May 16:00
+                  swedish time.
                 </p>
 
                 <p class="my-2">
@@ -310,12 +310,17 @@
                 </p>
               </div>
 
+              <p class="mx-auto my-4 max-w-screen-sm italic">
+                "Att använda den egna rösten förstärker upplevelsen av frid och
+                lugn vid saxofonmeditationen. /Lars"
+              </p>
+
               <Divider class="my-5" />
 
               <div class="mx-auto max-w-screen-sm">
-                <p class="my-2">
+                <p class="my-4">
                   <span class="font-bold">When:</span>
-                  Upcoming meditations: 26/4, 31/5, 14/6, 2/8, 23/8, 13/9, 4/10
+                  Upcoming meditations: 31/5, 14/6, 2/8, 23/8, 13/9, 4/10
                 </p>
                 <p class="my-2">
                   <span class="font-bold">Price:</span>
