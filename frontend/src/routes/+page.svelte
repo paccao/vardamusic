@@ -55,8 +55,9 @@
             <enhanced:img
               src={treeOfVarda}
               alt="A picture of a tree that represents Varda"
-              class="mx-auto my-8 h-auto w-full max-w-[350px] rounded-md object-cover"
+              class="mx-auto mt-8 h-auto w-full max-w-[350px] rounded-md object-cover"
             />
+            <p class="align-right mt-2 mb-4 text-[10px]">Photo Lindsey B</p>
             <p>
               Varda - she rescues the elves from danger to a safe place with
               sacred soundhealing, retreats, meditations, crystal bowl- &
@@ -119,6 +120,11 @@
             <h2 class="mt-8 text-center font-display text-3xl font-bold">
               Site navigation
             </h2>
+            <a
+              href="#{events['soundConcerts'].id}"
+              class="px-6 py-2 text-center text-xl text-[#004b47] underline underline-offset-2 hover:underline focus:text-[#004b47] focus:underline"
+              >{events['soundConcerts'].title}</a
+            >
             <a
               href="#{events['soundSession'].id}"
               class="px-6 py-2 text-center text-xl text-[#004b47] underline underline-offset-2 hover:underline focus:text-[#004b47] focus:underline"
@@ -484,7 +490,7 @@
           />
 
           <p class="px-4 text-center font-bold">
-            If you live in Sweden I also offer lessions in how to play the
+            If you live in Sweden I also offer lessons in how to play the
             saxophone. 🎷🎶
           </p>
 
@@ -501,7 +507,7 @@
               angelic beings. It is a sacred space for those ready to step into
               their own initiation, to move beyond limitations, to connect more
               deeply with their soul wisdom and to start embody their unique
-              gifts in the world.
+              gifts into this world.
             </p>
             <p class="pt-2">
               If this resonates with you, I am here to guide you and help you
