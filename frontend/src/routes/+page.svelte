@@ -155,14 +155,15 @@
               Who am I?
             </h3>
             <div class="mx-auto mb-2 max-w-screen-sm">
-              <p class="pt-4">
+              <p class="pt-2">
                 I got a call from my heart, something shifted in me. I tried to
-                neglete it for a looong time but finally I could not do that
-                anymore. So I quit my job and started to develope my new
+                neglect it for a looong time but finally I could not do that
+                anymore. So I quit my job and started to develop my new
                 business-my bakery. But pretty soon I felt that there is more
                 for me.
               </p>
-              <p class="pt-4">
+              <p class="py-4">My life has shifted.</p>
+              <p>
                 So now I also work with healing sounds in different wonderful
                 ways. I am so happy and honored that I get to help others to
                 release that which no longer serves them and instead feel more
@@ -188,22 +189,23 @@
                   class="mb-4 text-center font-display text-4xl font-bold"
                   id={events.soundConcerts.id}
                 >
-                  {events.soundConcerts.title} - 10:th maj 17.00
+                  {events.soundConcerts.title} - 10:th may 17.00
                 </h2>
                 <div class="mx-auto my-2 mb-2 max-w-screen-sm">
-                  <h3 class="font- text-center">With the arch angels</h3>
-
-                  <p class="pt-2">
+                  <h3 class="text-center">Maggan Allerth med vänner</h3>
+                  <p class="text-center">Lotta Andersson - Gong</p>
+                  <p class="text-center">Emilia Andersson - Gitarr</p>
+                  <p class="text-center">Madeleine Fjärilsdotter - Dikt</p>
+                  <p class="text-center">Colin Lindén - Shakers</p>
+                  <p class="text-center">
+                    Maggan Allerth - Saxofon, piano, sång & kristallskålar
+                  </p>
+                  <p class="pt-4">
                     I was inspired to make a concert with sounds, saxophone,
                     piano, crystal bowls and my voice. This concert will include
-                    songs and poems written by me that will be performed. It
-                    will be calming, peaceful but also activating in the same
-                    time.
-                  </p>
-
-                  <p class="my-2">
-                    <span class="font-bold">Booking</span> is required by email, last
-                    date 8th of may.
+                    songs that I have written, as well as poems written by both
+                    Madeleine and myself. It will be a calming, peaceful but
+                    also activating experience for you.
                   </p>
 
                   <p class="my-2">
