@@ -253,6 +253,21 @@
                     in person or online. This can also be done in smaller
                     groups. We work together for one hour.
                   </p>
+
+                  <p class="pt-4">Comments about sacred sound sessions:</p>
+                  <p class="pt-2 italic">
+                    🤍 "Att komma ned i varv, bara vara, jorda sig och dels få
+                    sjunga efter lugnande pianotoner och sedan få lyssna till
+                    klangskålarna ger energi & lugn. Tack Maggan!" /Marie
+                  </p>
+                  <p class="pt-2 italic">
+                    🤍 "Jag känner mej starkare och har mer energi, mer
+                    motiverad till att göra saker som jag vill göra" /Anna
+                  </p>
+                  <p class="pt-2 italic">
+                    🤍 "Så fridfullt och välgörande. Jag fick chills all over my
+                    body" /Stina
+                  </p>
                 </div>
                 <div class="flex justify-center text-center">
                   <EncryptedEmail />
