@@ -170,7 +170,7 @@
               <p class="py-4">
                 My life has shifted totally, sometimes it has been hard but it
                 has been so worth it. To just trust in God, source or what you
-                want to call it, it is Divine. I'm so greatful!
+                want to call it, it is Divine. I'm so grateful!
               </p>
               <p>
                 So now I also work with healing sounds in different wonderful
