@@ -72,12 +72,15 @@
             breath, relax and listen to this free short meditation at least 3
             times.
           </p>
+
+          <Divider class="my-4" />
+
           <p class="mx-auto max-w-sm py-2 text-center text-balance">
             I have just started building a library of my meditation music, to
             help you raise your frequency, and also calm your nervous system.
             Some of them has a text file included so that you can fully anchor.
           </p>
-          <p class="mx-auto max-w-sm py-2 text-center text-balance">
+          <p class="mx-auto max-w-sm py-2 text-center">
             You can buy some of my music already, just send me an email. You can
             also listen to my music on instagram <a
               href={instagramProfileLink}
@@ -89,7 +92,7 @@
 
           <Divider class="my-8" />
 
-          <div class="mx-auto max-w-screen-sm">
+          <div class="mx-auto max-w-screen-sm px-4">
             <p class="py-2">
               I don't know how you found me, but I know that you are here for a
               reason. Just by start reading here you begin to activate your
@@ -164,7 +167,11 @@
                 business-my bakery. But pretty soon I felt that there is more
                 for me.
               </p>
-              <p class="py-4">My life has shifted.</p>
+              <p class="py-4">
+                My life has shifted totally, sometimes it has been hard but it
+                has been so worth it. To just trust in God, source or what you
+                want to call it, it is Divine. I'm so greatful!
+              </p>
               <p>
                 So now I also work with healing sounds in different wonderful
                 ways. I am so happy and honored to meet you all and provide a
@@ -242,10 +249,10 @@
                   <p class="pt-2">
                     With the help of sound, your own voice and in combination
                     with my voice you can start to regulate your nervous system
-                    into calm and peace. And through tuning we feel more in
-                    balance and start to heal things in our body. We can once
-                    again feel that inner stillness. A personal sound healing
-                    session is included.
+                    into calm and peace. Through tuning we feel more in balance
+                    and can start to heal things in our body. We can once again
+                    feel that inner stillness. A personal sound healing session
+                    is included.
                   </p>
 
                   <p class="pt-2">
@@ -296,7 +303,7 @@
 
                 <p class="my-2">
                   And now it's time to once again have these meditations in the
-                  wood. We'll meet at the parking lot at hembygdsgården in
+                  forest. We'll meet at the parking lot at hembygdsgården in
                   Algutstorp. 516 93 Rångedala.
                 </p>
 
@@ -313,8 +320,8 @@
               </div>
 
               <p class="mx-auto my-4 max-w-screen-sm italic">
-                "Att använda den egna rösten förstärker upplevelsen av frid och
-                lugn vid saxofonmeditationen. /Lars"
+                🤍 "Att använda den egna rösten förstärker upplevelsen av frid
+                och lugn vid saxofonmeditationen. /Lars"
               </p>
 
               <Divider class="my-5" />
@@ -423,7 +430,10 @@
               </div>
 
               <div class="mx-auto my-2 max-w-screen-sm">
-                <p>Food is included in the price, mention any allergy.</p>
+                <p>
+                  Food is included in the price, mention if you have any
+                  allergies.
+                </p>
                 <p>
                   Investment in yourself: 1950 SEK. Book before 3rd of August at
                   20:00.
@@ -473,7 +483,7 @@
             alt="Maggan playing the saxophone"
           />
 
-          <p class="text-center font-bold">
+          <p class="px-4 text-center font-bold">
             If you live in Sweden I also offer lessions in how to play the
             saxophone. 🎷🎶
           </p>
