@@ -86,8 +86,10 @@
               @vardamusic44
             </a>
           </p>
+
           <Divider class="my-8" />
-          <div class="mx-auto max-w-sm text-center text-balance">
+
+          <div class="mx-auto max-w-screen-sm">
             <p class="py-2">
               I don't know how you found me, but I know that you are here for a
               reason. Just by start reading here you begin to activate your
@@ -165,11 +167,11 @@
               <p class="py-4">My life has shifted.</p>
               <p>
                 So now I also work with healing sounds in different wonderful
-                ways. I am so happy and honored that I get to help others to
-                release that which no longer serves them and instead feel more
-                anchored and at ease so they can find the true path they've
-                always longed for, but didn't know how to find. I work with The
-                Archangels, Mother Mary, Jesus and Mary Magdalene.
+                ways. I am so happy and honored to meet you all and provide a
+                supportive and nourishing space so that your rose within you can
+                grow into full bloom at it's own pace, and find your true path
+                the soul always longed for. I work with The Archangels, Mother
+                Mary, Jesus and Mary Magdalene.
               </p>
             </div>
 
@@ -397,8 +399,8 @@
 
               <div class="flex justify-center">
                 <p class="my-2 max-w-screen-sm">
-                  In this oneday retreat you'll get new insights, you will meet
-                  other like-minded och if you want , new doors will opens for
+                  In this one-day retreat you'll get new insights, you will meet
+                  other like-minded and if you want, new doors will opens for
                   you and you will grow and feel more aligned.
                 </p>
               </div>
@@ -472,7 +474,7 @@
           />
 
           <p class="text-center font-bold">
-            If you live in Sweden I also offer lessions in how to play
+            If you live in Sweden I also offer lessions in how to play the
             saxophone. 🎷🎶
           </p>
 
