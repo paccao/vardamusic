@@ -1,6 +1,6 @@
 <script lang="ts">
   import EncryptedEmail from '$components/encrypted-email.svelte'
-  import allerthsBageriLogo from '$assets/allerths-bageri-logo.jpeg?enhanced'
+  import allerthsBageriLogo from '$assets/tree-of-varda.jpeg?enhanced'
   import { events } from '../../lib/constants'
 </script>
 

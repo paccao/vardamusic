@@ -5,7 +5,7 @@
   import NavUser from './nav-user.svelte'
   import * as Sidebar from '$components/ui/sidebar/index.js'
   import type { ComponentProps } from 'svelte'
-  import allerthsBageriLogo from '$assets/allerths-bageri-logo.jpeg?enhanced'
+  import allerthsBageriLogo from '$assets/tree-of-varda.jpeg?enhanced'
 
   const data = {
     user: {

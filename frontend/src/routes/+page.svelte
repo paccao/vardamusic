@@ -5,7 +5,7 @@
   import { instagramProfileLink } from '$lib/constants'
   import Divider from '$components/divider.svelte'
 
-  import allerthsBageriLogo from '$assets/allerths-bageri-logo.jpeg?enhanced'
+  import allerthsBageriLogo from '$assets/tree-of-varda.jpeg?enhanced'
   import saxophoneRetreat from '$assets/saxofonretreat.jpeg?enhanced'
   import crystalBowlsTuning from '$assets/crystalBowlsTuning.jpeg?enhanced'
   import treeOfVarda from '$assets/tree-of-varda.jpeg?enhanced'
