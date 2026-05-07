@@ -5,12 +5,7 @@ import { enhancedImages } from '@sveltejs/enhanced-img'
 import { keystatic } from 'keystatic-sveltekit'
 
 export default defineConfig({
-  plugins: [
-    tailwindcss(),
-    // keystatic(),
-    enhancedImages(),
-    sveltekit(),
-  ],
+  plugins: [tailwindcss(), keystatic(), enhancedImages(), sveltekit()],
   // Ensure the SvelteKit app is running on 127.0.0.1 to be consistent with Keystatic
   // For production, we want the host to be determined by the runtime instead
   server:
