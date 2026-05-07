@@ -8,6 +8,7 @@ import {
   // type GitHubConfig,
   // type LocalConfig,
 } from '@keystatic/core'
+import { wrapper } from '@keystatic/core/content-components'
 // import { loadEnvFile } from 'node:process'
 // loadEnvFile('./.env')
 
@@ -30,7 +31,10 @@ export default config({
   ui: {
     brand: { name: 'Sacred Varda Music' },
     navigation: {
-      Sidoinnehåll: ['startsida'],
+      Sidoinnehåll: [
+        'pages',
+        // 'components'
+      ],
       Annat: ['settings'],
     },
   },
@@ -47,27 +51,33 @@ export default config({
     }),
   },
   collections: {
-    startsida: collection({
-      label: 'Startsida',
-      slugField: 'startsida',
-      path: 'src/content/startsida/*',
+    pages: collection({
+      label: 'Sidor',
+      slugField: 'pages',
+      path: 'src/content/pages/*',
       entryLayout: 'content',
       format: { contentField: 'content' },
       schema: {
-        startsida: fields.slug({ name: { label: 'Titel' } }),
+        pages: fields.slug({ name: { label: 'Titel' } }),
         content: fields.mdx({
           label: 'Innehåll',
+          components: {
+            TextblockCenter: wrapper({
+              label: 'Centrerat Textblock',
+              schema: {},
+            }),
+          },
         }),
       },
     }),
-    komponenter: collection({
-      label: 'Sidans byggdelar',
-      slugField: 'byggdelar',
-      path: 'src/content/components/*',
-      schema: {
-        byggdelar: fields.slug({ name: { label: 'Byggdelar' } }),
-      },
-    }),
+    // components: collection({
+    //   label: 'Komponenter till gränssnitt',
+    //   slugField: 'komponenter',
+    //   path: 'src/content/components/*',
+    //   schema: {
+    //     komponenter: fields.slug({ name: { label: 'Titel' } }),
+    //   },
+    // }),
   },
 })
 
