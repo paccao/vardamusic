@@ -1,7 +1,7 @@
 <script lang="ts">
   import EncryptedEmail from '$components/encrypted-email.svelte'
   import allerthsBageriLogo from '$assets/tree-of-varda.jpeg?enhanced'
-  import { events } from '../../lib/constants'
+  import { events } from '$lib/constants.ts'
 </script>
 
 <footer class="mt-8 border-t border-stone-400 px-4 py-8">

@@ -1,5 +1,5 @@
 import { createReader } from '@keystatic/core/reader'
-import keystaticConfig from '../../keystatic.config'
+import keystaticConfig from '../../keystatic.config.ts'
 import { pathToFileURL } from 'node:url'
 
 /** See https://keystatic.com/docs/reader-api */

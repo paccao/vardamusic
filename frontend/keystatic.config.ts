@@ -1,27 +1,32 @@
-// keystatic.config.ts
+import type { Title } from '$components/ui/card/index.ts'
+import { config, fields, singleton, collection } from '@keystatic/core'
 import {
-  config,
-  fields,
-  singleton,
-  collection,
-  component,
-  // type GitHubConfig,
-  // type LocalConfig,
-} from '@keystatic/core'
-import { wrapper } from '@keystatic/core/content-components'
-// import { loadEnvFile } from 'node:process'
-// loadEnvFile('./.env')
-
-// const isProd = process.env.NODE_ENV === 'production'
-
-// const localMode: LocalConfig['storage'] = {
-//   kind: 'local',
-// }
-
-// const remoteMode: GitHubConfig['storage'] = {
-//   kind: 'github',
-//   repo: 'paccao/vardamusic',
-// }
+  wrapper,
+  type ContentComponent,
+} from '@keystatic/core/content-components'
+const components: Record<string, ContentComponent> = {
+  AlignedTextBlock: wrapper({
+    label: 'Text',
+    description:
+      'Detta är en paragraf med en eller flera rader av text som går från vänster till höger på skärmen.',
+    schema: {
+      textAlign: fields.select({
+        label: 'Justera text',
+        defaultValue: 'text-left',
+        options: [
+          {
+            label: 'Vänsterjustera',
+            value: 'text-left',
+          },
+          {
+            label: 'Centerjustera',
+            value: 'text-center',
+          },
+        ],
+      }),
+    },
+  }),
+}
 
 export default config({
   // storage: isProd ? remoteMode : localMode,
@@ -33,9 +38,9 @@ export default config({
     navigation: {
       Sidoinnehåll: [
         'pages',
+        'settings',
         // 'components'
       ],
-      Annat: ['settings'],
     },
   },
   singletons: {
@@ -53,31 +58,18 @@ export default config({
   collections: {
     pages: collection({
       label: 'Sidor',
-      slugField: 'pages',
+      slugField: 'title',
       path: 'src/content/pages/*',
       entryLayout: 'content',
       format: { contentField: 'content' },
       schema: {
-        pages: fields.slug({ name: { label: 'Titel' } }),
-        content: fields.mdx({
+        title: fields.slug({ name: { label: 'Titel' } }),
+        content: fields.markdoc({
           label: 'Innehåll',
-          components: {
-            TextblockCenter: wrapper({
-              label: 'Centrerat Textblock',
-              schema: {},
-            }),
-          },
+          components,
         }),
       },
     }),
-    // components: collection({
-    //   label: 'Komponenter till gränssnitt',
-    //   slugField: 'komponenter',
-    //   path: 'src/content/components/*',
-    //   schema: {
-    //     komponenter: fields.slug({ name: { label: 'Titel' } }),
-    //   },
-    // }),
   },
 })
 

@@ -2,7 +2,7 @@
   import Layout from '$layouts/main-layout.svelte'
 
   import EncryptedEmail from '$components/encrypted-email.svelte'
-  import { instagramProfileLink } from '$lib/constants'
+  import { instagramProfileLink, events } from '$lib/constants.ts'
   import Divider from '$components/divider.svelte'
 
   import allerthsBageriLogo from '$assets/tree-of-varda.jpeg?enhanced'
@@ -13,7 +13,6 @@
   import magganPlayingSaxophone from '$assets/maggan-playing-the-saxophone.png?enhanced'
   import motherMarySong from '$assets/mother-mary-1.wav'
   import trolleboSaxophoneMeditations from '$assets/trollebo-saxophone-meditations.jpeg?enhanced'
-  import { events } from '../lib/constants'
   const siteName = 'Sacred Varda Music'
 
   // const bakingCourseDate = new Date('2026-03-21').toLocaleString('sv-SE', {
