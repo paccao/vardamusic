@@ -4,7 +4,6 @@ import type { Config } from 'markdoc-svelte'
 const tags: Config['tags'] = {
   AlignedTextBlock: {
     render: 'AlignedTextBlock',
-    children: ['paragraph'],
     attributes: {
       type: {
         type: String,

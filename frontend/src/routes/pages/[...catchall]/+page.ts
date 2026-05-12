@@ -24,8 +24,6 @@ const allPosts = Object.entries(
     const slug = path
       .replace('/src/content/pages/', '')
       .replace(/\.(mdoc|md)$/, '')
-    console.log('raw: ', rawPosts)
-    console.log('slug: ', slug)
     rawPosts[slug] = loadPost as () => Promise<MarkdocModule>
     return rawPosts
   },
@@ -34,7 +32,6 @@ const allPosts = Object.entries(
 
 async function getPost(slug: string): Promise<BlogPost> {
   const loaded = await allPosts[slug]?.()
-  console.log(allPosts)
   if (!loaded) {
     throw new Error('No post with slug: ' + slug)
   }

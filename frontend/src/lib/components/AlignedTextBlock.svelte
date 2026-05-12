@@ -9,6 +9,6 @@
   const { textAlign, type, children }: Props = $props()
 </script>
 
-<div class={`mx-auto max-w-sm ${textAlign} text-balance customTag-${type}`}>
-  <p class="pt-4">{@render children?.()}</p>
+<div class={`mx-auto max-w-sm ${textAlign} AlignedTextBlock text-balance`}>
+  {@render children?.()}
 </div>
