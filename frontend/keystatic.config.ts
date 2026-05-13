@@ -59,6 +59,53 @@ const components: Record<string, ContentComponent> = {
       }),
     },
   }),
+  Image: block({
+    label: 'Bild',
+    description: 'Lägg in en bild på sidan',
+    schema: {
+      // TODO: Add feature to pick image that already exists in the repo and make it work for local/github storage mode
+      src: fields.image({
+        label: 'Bild',
+        directory: 'src/lib/assets/',
+        publicPath: '/src/lib/assets/',
+        validation: { isRequired: true },
+      }),
+      alt: fields.text({
+        label: 'Alternativ text som visas ifall bilden inte kan läsas in.',
+        validation: { isRequired: true },
+      }),
+      caption: fields.text({
+        label: 'Bildtext under bild (valfritt)',
+        validation: { isRequired: false },
+      }),
+      class: fields.select({
+        label: 'Justera storlek',
+        defaultValue:
+          'mx-auto my-6 h-auto w-full max-w-[350px] rounded-md object-cover',
+        options: [
+          {
+            label: 'Liten',
+            value:
+              'mx-auto my-4 h-auto w-full max-w-[250px] rounded-md object-cover',
+          },
+          {
+            label: 'Normal',
+            value:
+              'mx-auto my-6 h-auto w-full max-w-[350px] rounded-md object-cover',
+          },
+          {
+            label: 'Stor',
+            value:
+              'mx-auto my-8 h-auto w-full max-w-[400px] rounded-md object-cover',
+          },
+          {
+            label: 'Full bredd, inga rundade hörn',
+            value: 'w-full max-h-[60vh] h-auto rounded-none object-cover',
+          },
+        ],
+      }),
+    },
+  }),
 }
 
 export default config({
@@ -105,73 +152,6 @@ export default config({
     }),
   },
 })
-
-// export default config({
-//   collections: {
-//     // Singleton for settings (you said it already exists; included for completeness)
-//     settings: config.singleton({
-//       label: 'Settings',
-//       slug: 'settings',
-//       schema: {
-//         email: fields.text({
-//           label: 'Contact email',
-//           validation: { required: true },
-//         }),
-//       },
-//     }),
-
-//     // Startsida collection (Swedish landing page)
-//     startsida: config.collection({
-//       label: 'Startsida',
-//       path: 'content/startsida',
-//       slugField: 'title',
-//       schema: {
-//         title: fields.text({ label: 'Titel', validation: { required: true } }),
-//         blocks: fields.blocks({
-//           label: 'Sektioner',
-//           // Each block variant defined below
-//           blocks: {
-//             // Simple text block with alignment toggle (boolean)
-//             textBlock: fields.object({
-//               label: 'Textblock',
-//               schema: {
-//                 heading: fields.text({
-//                   label: 'Rubrik',
-//                   validation: { required: false },
-//                 }),
-//                 body: fields.richText({
-//                   label: 'Brödtext',
-//                   // use markdoc/mdx later; richText gives structured content now
-//                   validation: { required: false },
-//                 }),
-//                 center: fields.boolean({
-//                   label: 'Centera text?',
-//                   description:
-//                     'När true, använd center-justering; annars vänster.',
-//                   defaultValue: false,
-//                 }),
-//                 showDivider: fields.boolean({
-//                   label: 'Visa avskiljare (divider)?',
-//                   defaultValue: false,
-//                 }),
-//               },
-//             }),
-
-//             // Divider-only block (visual separator)
-//             divider: fields.object({
-//               label: 'Avskiljare',
-//               schema: {
-//                 size: fields.select({
-//                   label: 'Storlek',
-//                   options: [
-//                     { label: 'Small', value: 'sm' },
-//                     { label: 'Medium', value: 'md' },
-//                     { label: 'Large', value: 'lg' },
-//                   ],
-//                   defaultValue: 'md',
-//                 }),
-//               },
-//             }),
 
 //             // Image block (single image + caption)
 //             imageBlock: fields.object({

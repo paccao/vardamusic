@@ -26,6 +26,23 @@ const tags: Config['tags'] = {
       class: { type: String },
     },
   },
+  Image: {
+    render: 'Image',
+    attributes: {
+      src: {
+        type: String,
+      },
+      alt: {
+        type: String,
+      },
+      caption: {
+        type: String,
+      },
+      class: {
+        type: String,
+      },
+    },
+  },
 }
 
 export default tags
