@@ -1,6 +1,6 @@
-import type { Title } from '$components/ui/card/index.ts'
 import { config, fields, singleton, collection } from '@keystatic/core'
 import {
+  block,
   wrapper,
   type ContentComponent,
 } from '@keystatic/core/content-components'
@@ -25,6 +25,35 @@ const components: Record<string, ContentComponent> = {
           {
             label: 'Högerjustera',
             value: 'text-right',
+          },
+        ],
+      }),
+    },
+  }),
+  Divider: block({
+    label: 'Avskiljare',
+    description:
+      'Använd denna för att dela upp sektioner på sidan med ett horizontellt streck.',
+    schema: {
+      class: fields.select({
+        label: 'Välj storleken på avståndet ovan och nedanför avskiljaren',
+        defaultValue: 'my-8',
+        options: [
+          {
+            label: 'Litet avstånd',
+            value: 'my-4',
+          },
+          {
+            label: 'Normalt avstånd',
+            value: 'my-8',
+          },
+          {
+            label: 'Stort avstånd',
+            value: 'my-10',
+          },
+          {
+            label: 'Extra stort avstånd',
+            value: 'my-12',
           },
         ],
       }),

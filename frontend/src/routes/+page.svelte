@@ -3,7 +3,7 @@
 
   import EncryptedEmail from '$components/encrypted-email.svelte'
   import { instagramProfileLink, events } from '$lib/constants.ts'
-  import Divider from '$components/divider.svelte'
+  import Divider from '$components/Divider.svelte'
 
   import allerthsBageriLogo from '$assets/tree-of-varda.jpeg?enhanced'
   import saxophoneRetreat from '$assets/saxofonretreat.jpeg?enhanced'

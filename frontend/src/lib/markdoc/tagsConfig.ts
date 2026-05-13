@@ -14,6 +14,18 @@ const tags: Config['tags'] = {
       textAlign: { type: String },
     },
   },
+  Divider: {
+    render: 'Divider',
+    attributes: {
+      type: {
+        type: String,
+        default: 'note',
+        matches: ['caution', 'check', 'note', 'warning'],
+        errorLevel: 'critical',
+      },
+      class: { type: String },
+    },
+  },
 }
 
 export default tags

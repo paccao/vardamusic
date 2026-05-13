@@ -55,15 +55,3 @@ export const load = async ({ params }) => {
     post: await getPost(slug),
   }
 }
-// import { error } from '@sveltejs/kit'
-// import type { MarkdocModule } from 'markdoc-svelte'
-
-// export const load = async ({ params }) => {
-//   const slug = params.catchall
-//   try {
-//     const page = (await import(`$pages/${slug}.mdoc`)) as MarkdocModule
-//     return { page }
-//   } catch {
-//     throw error(404, `No corresponding file found for the slug "${slug}"`)
-//   }
-// }

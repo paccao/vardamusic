@@ -5,7 +5,7 @@ import { glob } from 'node:fs/promises'
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte'
 import { posix, sep } from 'node:path'
 import { isKeystaticRoute } from 'keystatic-sveltekit'
-import markdocTags from './src/lib/markdoc/AlignedTextBlock.ts'
+import markdocTags from './src/lib/markdoc/tagsConfig.ts'
 
 export async function getPrerenderEntries() {
   const pages = (
