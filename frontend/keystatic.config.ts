@@ -22,6 +22,10 @@ const components: Record<string, ContentComponent> = {
             label: 'Centerjustera',
             value: 'text-center',
           },
+          {
+            label: 'Högerjustera',
+            value: 'text-right',
+          },
         ],
       }),
     },
