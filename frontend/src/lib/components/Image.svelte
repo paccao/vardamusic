@@ -15,8 +15,12 @@
 </script>
 
 {#if src}
-  <enhanced:img class={className} {src} {alt} />
-{/if}
-{#if caption}
-  <caption>{caption}</caption>
+  {#if caption}
+    <figure>
+      <enhanced:img class={className} {src} {alt} />
+      <figcaption class="mb-4 text-center text-[10px]">{caption}</figcaption>
+    </figure>
+  {:else}
+    <enhanced:img class={className} {src} {alt} />
+  {/if}
 {/if}
