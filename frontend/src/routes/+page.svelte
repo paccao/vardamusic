@@ -232,7 +232,11 @@
                   </p>
                 </div>
 
-                <p class="my-2 text-center">I would love to see you there.</p>
+                <p class="pt-4">Comments from the concert:</p>
+                <p class="pt-2 pb-4 text-center text-xl italic">
+                  "Det var en helt fantastisk upplevelse av ljud som bara tog
+                  tag i en. Underbar musik! Ett stort tack från Egon & Siw"
+                </p>
 
                 <div class="flex justify-center text-center">
                   <EncryptedEmail />
