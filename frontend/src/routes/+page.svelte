@@ -26,7 +26,7 @@
     <div>
       <div class="flex items-center justify-center gap-4">
         <h1
-          class="inline-flex pt-2 font-display text-4xl font-bold sm:text-6xl"
+          class="inline-flex pt-2 font-display text-5xl font-bold 2xs:text-6xl xs:text-7xl sm:text-8xl"
         >
           {siteName}
         </h1>
@@ -40,7 +40,9 @@
         <div class="mx-auto w-full">
           <Divider class="my-8" />
           <div class="mx-auto max-w-sm text-center text-balance" id="intro">
-            <h2 class="font-display text-3xl font-bold">Beloved, welcome!</h2>
+            <h2 class="font-display text-3xl font-bold xs:text-4xl">
+              Beloved, welcome!
+            </h2>
             <p class="pt-4">
               This is a sacred website and it is activated and loaded with pure
               Christ conciousness, ancient wisdom, unconditional love. It's a
