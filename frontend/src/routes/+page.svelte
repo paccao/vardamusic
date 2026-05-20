@@ -13,6 +13,7 @@
   import magganPlayingSaxophone from '$assets/maggan-playing-the-saxophone.png?enhanced'
   import motherMarySong from '$assets/mother-mary-1.wav'
   import trolleboSaxophoneMeditations from '$assets/trollebo-saxophone-meditations.jpeg?enhanced'
+  import soundConcert1 from '$assets/sound-concert-1.png?enhanced'
   import { events } from '../lib/constants'
   const siteName = 'Sacred Varda Music'
 
@@ -209,14 +210,6 @@
                   {events.soundConcerts.title} - 10:th may 17.00
                 </h2>
                 <div class="mx-auto my-2 mb-2 max-w-screen-sm">
-                  <h3 class="text-center">Maggan Allerth med vänner</h3>
-                  <p class="text-center">Lotta Andersson - Gong</p>
-                  <p class="text-center">Emilia Andersson - Gitarr</p>
-                  <p class="text-center">Madeleine Fjärilsdotter - Dikt</p>
-                  <p class="text-center">Colin Lindén - Shakers</p>
-                  <p class="text-center">
-                    Maggan Allerth - Saxofon, piano, sång & kristallskålar
-                  </p>
                   <p class="pt-4">
                     I was inspired to make a concert with sounds, saxophone,
                     piano, crystal bowls and my voice. This concert will include
@@ -236,12 +229,25 @@
                 </div>
 
                 <p class="pt-4">Comments from the concert:</p>
-                <p class="pt-2 pb-4 text-center text-xl italic">
+                <p class="pt-2 pb-4 text-center italic">
                   "Det var en helt fantastisk upplevelse av ljud som bara tog
                   tag i en. Underbar musik! Ett stort tack från Egon & Siw"
                 </p>
 
-                <div class="flex justify-center text-center">
+                <enhanced:img
+                  class="mx-auto h-auto w-full max-w-[350px] rounded-md object-cover pt-2 pb-4"
+                  src={soundConcert1}
+                  alt="A picture from the sound concert of the participants."
+                />
+
+                <h3 class="text-center">Participants from left to right:</h3>
+                <p class="text-center">Madeleine Fjärilsdotter - Poems</p>
+                <p class="text-center">Lotta Andersson - Gong</p>
+                <p class="text-center">Maggan Allerth - Composer</p>
+                <p class="text-center">Emilia Andersson - Guitar</p>
+                <p class="text-center">Colin Lindén - Percussion</p>
+
+                <div class="flex justify-center pt-4 text-center">
                   <EncryptedEmail />
                 </div>
               </div>
