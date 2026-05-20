@@ -235,7 +235,7 @@
                 </p>
 
                 <enhanced:img
-                  class="mx-auto h-auto w-full max-w-[350px] rounded-md object-cover pt-2 pb-4"
+                  class="mx-auto mt-2 mb-6 h-auto w-full max-w-[350px] rounded-sm object-cover"
                   src={soundConcert1}
                   alt="A picture from the sound concert of the participants."
                 />
@@ -247,7 +247,7 @@
                 <p class="text-center">Emilia Andersson - Guitar</p>
                 <p class="text-center">Colin Lindén - Percussion</p>
 
-                <div class="flex justify-center pt-4 text-center">
+                <div class="flex justify-center pt-8 text-center">
                   <EncryptedEmail />
                 </div>
               </div>
