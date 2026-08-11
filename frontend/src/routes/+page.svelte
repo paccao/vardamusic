@@ -315,19 +315,18 @@
               </h2>
               <div class="mx-auto mb-2 max-w-screen-sm">
                 <p class="my-2">
-                  The next saxophone meditation will be on the 31st of May 16:00
+                  The next saxophone meditation will be on the {new Date('2026-09-6').toLocaleString('en-GB', {
+                    dateStyle: 'long',
+                  })}, 15.00,
                   swedish time.
                 </p>
 
                 <p class="my-2">
-                  And now it's time to once again have these meditations in the
-                  forest. We'll meet at the parking lot at hembygdsgården in
-                  Algutstorp. 516 93 Rångedala.
-                </p>
-
-                <p class="my-2">
-                  Together we will take a 5 minute walk to a clearing in the
-                  forest to have these calming saxophone meditations.
+                    The upcoming saxophonemeditation will be in partnership with Kulturgläntan and will take place in Olofstorp, Fänneslunda. <a
+                        href="https://kulturglantan.se/Start/Kalendarium/"
+                        target="_blank"
+                        class="text-[#004b47] underline-offset-2 hover:text-[#004b47] hover:underline focus:underline"
+                    >Link to Kulturgläntans website.</a>
                 </p>
 
                 <p class="my-2">
@@ -339,7 +338,10 @@
 
               <p class="mx-auto my-4 max-w-screen-sm italic">
                 🤍 "Att använda den egna rösten förstärker upplevelsen av frid
-                och lugn vid saxofonmeditationen. /Lars"
+                och lugn vid saxofonmeditationen." /Lars
+              </p>
+              <p class="mx-auto my-4 max-w-screen-sm italic">
+                🤍 "En helt fantastisk upplevelse av ljud som bara tog tag i en!" /Egon
               </p>
 
               <Divider class="my-5" />
@@ -347,10 +349,12 @@
               <div class="mx-auto max-w-screen-sm">
                 <p class="my-4">
                   <span class="font-bold">When:</span>
-                  Upcoming meditations: 31/5, 14/6, 2/8, 23/8, 13/9, 4/10
+                  Upcoming meditations: {new Date('2026-09-6').toLocaleString('en-GB', {
+                    dateStyle: 'short',
+                  })}
                 </p>
                 <p class="my-2">
-                  <span class="font-bold">Price:</span>
+                  <span class="font-bold">Investment:</span>
                   220 SEK
                 </p>
                 <p class="my-2">
@@ -367,8 +371,7 @@
                 </p>
                 <p class="my-2">
                   <span class="font-bold">Summertime: </span>
-                  Hembygdsgården in Algutstorp. 516 93 Rångedala or at Spången 101,
-                  523 99 Hökerum
+                  Hembygdsgården in Algutstorp. 516 93 Rångedala or at Olofstorp, Fänneslunda
                 </p>
                 <p class="my-2">
                   <span class="font-bold">Wintertime: </span> Equmeniakyrkan, Hökerum.
