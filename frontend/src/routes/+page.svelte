@@ -84,6 +84,14 @@
             help you raise your frequency, and also calm your nervous system.
             Some of them has a text file included so that you can fully anchor.
           </p>
+
+          <p class="mx-auto max-w-sm py-2 text-center text-balance">
+            Some of my music will soon be available on <a
+              class="focus:underlineb47] inline-block font-medium text-[#004b47] underline-offset-2 hover:text-[#004b47] hover:underline focus:text-[#004b47]"
+              href="https://www.subvert.fm/">Subvert.fm</a
+            >. Titles: "Happy for this new day", "Every cell in my body", "Joy
+            in stillness" and more...
+          </p>
           <p class="mx-auto max-w-sm py-2 text-center">
             You can buy some of my music already, just send me an email. You can
             also listen to my music on instagram <a
