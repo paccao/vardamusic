@@ -215,7 +215,7 @@
                   class="mb-4 text-center font-display text-4xl font-bold"
                   id={events.soundConcerts.id}
                 >
-                  {events.soundConcerts.title} - 10:th may 17.00
+                  {events.soundConcerts.title} - 10:th may 2026
                 </h2>
                 <div class="mx-auto my-2 mb-2 max-w-screen-sm">
                   <p class="pt-4">
@@ -226,14 +226,14 @@
                     also activating experience for you.
                   </p>
 
-                  <p class="my-2">
+                  <!-- <p class="my-2">
                     <span class="font-bold">Where: </span> Equmeniakyrkan, Hökerum.
                     Vallvägen 2, 523 74 Hökerum.
-                  </p>
+                  </p> -->
 
-                  <p class="my-2">
+                  <!-- <p class="my-2">
                     <span class="font-bold">Cost: </span> 200 SEK, pay on site
-                  </p>
+                  </p> -->
                 </div>
 
                 <p class="pt-4">Comments from the concert:</p>
