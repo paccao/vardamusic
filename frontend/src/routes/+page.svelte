@@ -315,21 +315,16 @@
               </h2>
               <div class="mx-auto mb-2 max-w-screen-sm">
                 <p class="my-2">
-                  The next saxophone meditation will be on the {new Date(
-                    '2026-09-6',
-                  ).toLocaleString('en-GB', {
+                  The next saxophone meditation will be on {new Date(
+                    '2026-11-8',
+                  ).toLocaleString('en-US', {
                     dateStyle: 'long',
-                  })}, 15.00, swedish time.
-                </p>
-
-                <p class="my-2">
-                  The upcoming saxophonemeditation will be in partnership with
-                  Kulturgläntan and will take place in Olofstorp, Fänneslunda. <a
-                    href="https://kulturglantan.se/Start/Kalendarium/"
-                    target="_blank"
-                    class="text-[#004b47] underline-offset-2 hover:text-[#004b47] hover:underline focus:underline"
-                    >Link to Kulturgläntans website.</a
-                  >
+                  })}, 16.00, swedish time at Haganäs 105, Tvärred. The next
+                  occasion after that will be on {new Date(
+                    '2026-12-6',
+                  ).toLocaleString('en-US', {
+                    dateStyle: 'long',
+                  })} at the same address.
                 </p>
 
                 <p class="my-2">
@@ -353,10 +348,10 @@
               <div class="mx-auto max-w-screen-sm">
                 <p class="my-4">
                   <span class="font-bold">When:</span>
-                  Upcoming meditations: {new Date('2026-09-6').toLocaleString(
-                    'en-GB',
+                  Upcoming meditations: {new Date('2026-11-8').toLocaleString(
+                    'en-US',
                     {
-                      dateStyle: 'short',
+                      dateStyle: 'long',
                     },
                   )}
                 </p>
@@ -365,18 +360,17 @@
                   220 SEK
                 </p>
                 <p class="my-2">
-                  <span class="font-bold">Where: </span> Location may vary each
-                  meditation. Be sure to check my Instagram
-                  <a
+                  <span class="font-bold">Where: </span> Haganäs 105, Tvärred
+                  <!-- <a
                     href={instagramProfileLink}
                     target="_blank"
                     class="text-[#004b47] underline-offset-2 hover:text-[#004b47] hover:underline focus:underline"
                   >
                     @vardamusic44
                   </a>
-                  for the latest information.
+                  for the latest information. -->
                 </p>
-                <p class="my-2">
+                <!-- <p class="my-2">
                   <span class="font-bold">Summertime: </span>
                   Hembygdsgården in Algutstorp. 516 93 Rångedala or at Olofstorp,
                   Fänneslunda
@@ -384,7 +378,7 @@
                 <p class="my-2">
                   <span class="font-bold">Wintertime: </span> Equmeniakyrkan, Hökerum.
                   Vallvägen 2, 523 74 Hökerum.
-                </p>
+                </p> -->
 
                 <p class="py-2 text-center font-bold">
                   ✨ You are welcome to register by sending me an email:
@@ -418,7 +412,7 @@
                   New opportunity: UPCOMING RETREAT on {new Date(
                     '2027-02-7',
                   ).toLocaleString('en-US', { dateStyle: 'medium' })}, 09:30 -
-                  17:30 swedish time nearby the lake
+                  17:30 swedish time near the lake
                 </p>
               </div>
 
